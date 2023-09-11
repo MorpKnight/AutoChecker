@@ -1,13 +1,22 @@
 import os, subprocess
 
+def changeFormatName(filename):
+    # replace space with underscore
+    filename = filename.replace(" ", "_")
+    # replace [] with ""
+    filename = filename.replace("[", "")
+    filename = filename.replace("]", "")
+
+    # return filename
+
 def compileCProgram(sourceFiles, executeableFiles):
     for sourceFile, executeableFile in zip(sourceFiles, executeableFiles):
         compileCmd = f"gcc -o {executeableFile} {sourceFile}"
         result = os.system(compileCmd)
-        if result == 0:
-            print(f"Compile {sourceFile} success")
-        else:
+        if result != 0:
             print(f"Compile {sourceFile} failed")
+            exit(1)
+    print("Compile success")
 
 def executeCProgram(executeableFiles, inputFile):
     for executeableFile in executeableFiles:
@@ -26,13 +35,22 @@ def compareOuput(expectedOutput, actualOutput):
     return percentage
 
 def getAllCFiles():
-    return [file for file in os.listdir() if file.endswith(".c")]
+    # return [file for file in os.listdir() if file.endswith(".c")]
+    
+    # return all file .c in "code" folder
+    return [os.path.join("code", file) for file in os.listdir("code") if file.endswith(".c")]
 
 def readExpectedOutput(filename):
     with open(filename, "r") as file:
         return file.read().strip()
     
 if __name__ == "__main__":
+    sourceFiles = getAllCFiles()
+
+    # change format name
+    for sourceFile in sourceFiles:
+        os.rename(sourceFile, sourceFile.replace(" ", "").replace("[", "").replace("]", ""))
+    
     sourceFiles = getAllCFiles()
 
     inputFile = "input.txt"
@@ -61,8 +79,8 @@ if __name__ == "__main__":
         percentage = 0
         for outputPrint, insertInput in zip(expectedOutput, inputFile):
             actualOutput, stderr = executeCProgram([executeableFile], insertInput)
-            print(f"Actual output: {actualOutput}")
-            print(f"Expected output: {outputPrint}")
+            # print(f"Actual output: {actualOutput}")
+            # print(f"Expected output: {outputPrint}")
             percentage += compareOuput(outputPrint, actualOutput)
         percentage /= len(expectedOutput)
-        print(f"Matching percentage: {percentage}%")
+        print(f"{executeableFile}: {percentage}%")
