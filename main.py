@@ -30,6 +30,10 @@ def compareOuput(expectedOutput, actualOutput):
 
     matchingLines = sum([1 for expected, actual in zip(expectedLines, actualLines) if expected == actual])
     totalLines = max(len(expectedLines), len(actualLines))
+
+    for expected, actual in zip(expectedLines, actualLines):
+        if expected.lower() == actual.lower():
+            matchingLines += 1
     percentage = matchingLines / totalLines * 100
 
     return percentage
@@ -79,8 +83,8 @@ if __name__ == "__main__":
         percentage = 0
         for outputPrint, insertInput in zip(expectedOutput, inputFile):
             actualOutput, stderr = executeCProgram([executeableFile], insertInput)
-            # print(f"Actual output: {actualOutput}")
-            # print(f"Expected output: {outputPrint}")
+            print(f"Actual output: {actualOutput}")
+            print(f"Expected output: {outputPrint}")
             percentage += compareOuput(outputPrint, actualOutput)
         percentage /= len(expectedOutput)
         print(f"{executeableFile}: {percentage}%")

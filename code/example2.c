@@ -5,8 +5,11 @@ int main(){
 
     scanf("%d %d", &a, &b);
     total = a + b;
-    printf("%d", total);
+    if(total % 2 == 0){
+        printf("odd");
+    }else{
+        printf("EVEN");
+    }
 
-    // printf("Hello World");
     return 0;
 }
