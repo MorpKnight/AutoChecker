@@ -18,8 +18,8 @@ def compileCProgram(sourceFiles, executeableFiles):
 
 def executeCProgram(executeableFiles, inputFile):
     for executeableFile in executeableFiles:
-        with open(inputFile, "r") as file:
-            inputFile = file.read()
+        # with open(inputFile, "r") as file:
+        #     inputFile = file.read()
         process = subprocess.Popen(executeableFile, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stdout, stderr = process.communicate(input=inputFile.encode("utf-8"))
         return stdout.decode("utf-8"), stderr.decode("utf-8")
@@ -54,21 +54,37 @@ if __name__ == "__main__":
     expectedOutput = "output.txt"
 
     expectedOutput = readExpectedOutput(expectedOutput)
+    # expectedOutput to list
+    expectedOutput = expectedOutput.split("\n")
+
+    # read inputFile and split to list
+    with open(inputFile, "r") as file:
+        inputFile = file.read()
+    inputFile = inputFile.split("\n")
     
     print("Compiling...")
 
     executeableFiles = [file.replace(".c", "") for file in sourceFiles]
-    compileCProgram(sourceFiles, executeableFiles)
+    for outputPrint, insertInput in zip(expectedOutput, inputFile):
+        compileCProgram(sourceFiles, executeableFiles)
+        for executeableFile in executeableFiles:
+            actualOutput, stderr = executeCProgram([executeableFile], insertInput)
+            print("Comparing...")
+            percentage = compareOuput(outputPrint, actualOutput)
+            print(f"Matching percentage: {percentage}%")
+    # for output in expectedOutput:
+    #     compileCProgram(sourceFiles, executeableFiles)
+    #     for executeableFile in executeableFiles:
+    #         actualOutput, stderr = executeCProgram([executeableFile], inputFile)
+    #         print("Comparing...")
+    #         percentage = compareOuput(output, actualOutput)
+    #         print(f"Matching percentage: {percentage}%")
 
-    print("Executing...")
-    # actualOutput, stderr = executeCProgram(executeableFiles, inputFile)
-    for executeableFile in executeableFiles:
-        actualOutput, stderr = executeCProgram([executeableFile], inputFile)
-        print("Comparing...")
-        percentage = compareOuput(expectedOutput, actualOutput)
-        print(f"Matching percentage: {percentage}%")
+    # compileCProgram(sourceFiles, executeableFiles)
 
-
-    # print("Comparing...")
-    # percentage = compareOuput(expectedOutput, actualOutput)
-    # print(f"Matching percentage: {percentage}%")
+    # print("Executing...")
+    # for executeableFile in executeableFiles:
+    #     actualOutput, stderr = executeCProgram([executeableFile], inputFile)
+    #     print("Comparing...")
+    #     percentage = compareOuput(expectedOutput, actualOutput)
+    #     print(f"Matching percentage: {percentage}%")
