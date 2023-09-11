@@ -9,26 +9,11 @@ def compileCProgram(sourceFiles, executeableFiles):
         else:
             print(f"Compile {sourceFile} failed")
 
-    # compileCmd = f"gcc -o {executeableFile} {sourceFiles}"
-    # result = os.system(compileCmd)
-    # if result == 0:
-    #     print("Compile success")
-    # else:
-    #     print("Compile failed")
-
 def executeCProgram(executeableFiles, inputFile):
     for executeableFile in executeableFiles:
-        # with open(inputFile, "r") as file:
-        #     inputFile = file.read()
         process = subprocess.Popen(executeableFile, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stdout, stderr = process.communicate(input=inputFile.encode("utf-8"))
         return stdout.decode("utf-8"), stderr.decode("utf-8")
-    # with open(inputFile, "r") as file:
-    #     inputText = file.read()
-
-    # process = subprocess.Popen(executeableFile, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    # stdout, stderr = process.communicate(input=inputText.encode("utf-8"))
-    # return stdout.decode("utf-8"), stderr.decode("utf-8")
 
 def compareOuput(expectedOutput, actualOutput):
     expectedLines = expectedOutput.splitlines()
@@ -54,37 +39,30 @@ if __name__ == "__main__":
     expectedOutput = "output.txt"
 
     expectedOutput = readExpectedOutput(expectedOutput)
-    # expectedOutput to list
     expectedOutput = expectedOutput.split("\n")
 
-    # read inputFile and split to list
     with open(inputFile, "r") as file:
         inputFile = file.read()
     inputFile = inputFile.split("\n")
-    
-    print("Compiling...")
 
     executeableFiles = [file.replace(".c", "") for file in sourceFiles]
-    for outputPrint, insertInput in zip(expectedOutput, inputFile):
-        compileCProgram(sourceFiles, executeableFiles)
-        for executeableFile in executeableFiles:
-            actualOutput, stderr = executeCProgram([executeableFile], insertInput)
-            print("Comparing...")
-            percentage = compareOuput(outputPrint, actualOutput)
-            print(f"Matching percentage: {percentage}%")
-    # for output in expectedOutput:
-    #     compileCProgram(sourceFiles, executeableFiles)
+    compileCProgram(sourceFiles, executeableFiles)
+
+    # for outputPrint, insertInput in zip(expectedOutput, inputFile):
     #     for executeableFile in executeableFiles:
-    #         actualOutput, stderr = executeCProgram([executeableFile], inputFile)
+    #         actualOutput, stderr = executeCProgram([executeableFile], insertInput)
+    #         print(f"Actual output: {actualOutput}")
+    #         print(f"Expected output: {outputPrint}")
     #         print("Comparing...")
-    #         percentage = compareOuput(output, actualOutput)
+    #         percentage = compareOuput(outputPrint, actualOutput)
     #         print(f"Matching percentage: {percentage}%")
 
-    # compileCProgram(sourceFiles, executeableFiles)
-
-    # print("Executing...")
-    # for executeableFile in executeableFiles:
-    #     actualOutput, stderr = executeCProgram([executeableFile], inputFile)
-    #     print("Comparing...")
-    #     percentage = compareOuput(expectedOutput, actualOutput)
-    #     print(f"Matching percentage: {percentage}%")
+    for executeableFile in executeableFiles:
+        percentage = 0
+        for outputPrint, insertInput in zip(expectedOutput, inputFile):
+            actualOutput, stderr = executeCProgram([executeableFile], insertInput)
+            print(f"Actual output: {actualOutput}")
+            print(f"Expected output: {outputPrint}")
+            percentage += compareOuput(outputPrint, actualOutput)
+        percentage /= len(expectedOutput)
+        print(f"Matching percentage: {percentage}%")
