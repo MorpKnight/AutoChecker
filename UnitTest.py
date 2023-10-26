@@ -1,16 +1,17 @@
-import contextlib
+from operator import indexOf
 import os, subprocess
 import threading
 from time import sleep
-import time
 
 class UnitTest:
-    def __init__(self, filename, input, expectedOutput):
+    def __init__(self, filename, inputTest, expectedOutput):
         self.filename = filename
-        self.input = input
+        self.input = inputTest
         self.expectedOutput = expectedOutput
         self.actualOutput = None
         self.actualOutputList = []
+        self.count_event = threading.Event()
+        self.assert_event = threading.Event()
 
     def compileC(self):
         if os.path.exists(self.filename + ".exe"):
@@ -24,9 +25,7 @@ class UnitTest:
         self.filename = self.filename.replace(".c", "")
     
     def count5Seconds(self):
-        for i in range(3):
-            sleep(1)
-        
+        sleep(10)
         return True
 
     def executeProgram(self, inputString:str):
@@ -38,9 +37,11 @@ class UnitTest:
     def assertInputProgram(self):
         for i in self.input:
             stdout, stderr = self.executeProgram(i)
-            self.actualOutputList.append(stdout)
-
-        self.removeMultipleOutput()
+            stdout = stdout.replace("\r", "").replace("\n", "").replace(" ", "")
+            if stdout is not None:
+                self.actualOutputList.append(stdout.upper())
+            else:
+                self.actualOutputList.append(stderr)
 
     def multiThreadAssert(self):
         count = threading.Thread(target=self.count5Seconds)
@@ -48,12 +49,12 @@ class UnitTest:
         count.start()
         assertFunction.start()
 
-        # if count already finish, then stop assertFunction
         if count.join():
             assertFunction.join()
             return True
     
     def compareOutput(self):
+        print(f"{self.filename} is comparing")
         message = ""
         try:
             expectedLines = self.expectedOutput
@@ -63,23 +64,21 @@ class UnitTest:
             actualLines = self.actualOutput.splitlines()
         matchingLines = 0
         totalLines = max(len(expectedLines), len(actualLines))
+        if len(expectedLines) != len(actualLines):
+            print("Test case is not equal")
 
         for expected, actual in zip(expectedLines, actualLines):
-            # if expected == actual:
-            #     matchingLines += 1
             if expected in actual:
                 matchingLines += 1
+                # print test number is passed
+                print(f"Test {indexOf(actualLines, actual) + 1}: AC")
             else:
                 message += f"Expected: {expected}\nActual: {actual}\n"
+                print(f"Test {indexOf(actualLines, actual) + 1}: WA")
 
         percentage = matchingLines / totalLines * 100
 
         return percentage, message
-    
-    def removeMultipleOutput(self):
-        for output in self.actualOutputList:
-            output = output.replace("\r", "")
-            output = output.replace("\n", "")
     
     def collectOutputFormToTXT(self):
         if not os.path.exists("output.txt"):
@@ -104,30 +103,18 @@ class UnitTest:
             student = student[3]
             percentage, message = self.compareOutput()
             f.write(f"{student}: {percentage}\n")
-            # f.write(message)
-            # f.write("\n\n")
+            f.write(message)
+            f.write("\n")
 
-if __name__ == '__main__':
-    # inputTest = ["7 2 3 3 4 4 5 5 6 1 1 2 2 9 1"]
-    # outputTest = ["5\r\n7\r\n9\r\n11\r\n2\r\n4\r\n0\r\n"]
+    def printResultToCSV(self):
+        if not os.path.exists("result.csv"):
+            open("result.csv", "w").close()
 
-    inputTest = ["10 1 2 3 4 5", "25 10 10 10", "1 2", "10 10 0 0 0 0 1", "0 0 1"]
-    outputTest = ["4", "2", "0", "5", "1"]
-
-    for file in os.listdir("code"):
-        if file.endswith(".c"):
-            filename = os.path.join("code", file)
-            student = filename.split("_")
-            student_name = student[3]
-
-            checker = UnitTest(filename, inputTest, outputTest)
-            checker.removeSpaceNameFile()
-            checker.compileC()
-            sleep(1)
-            # checker.assertInputProgram()
-            checker.multiThreadAssert()
-            # print(checker.actualOutputList)
-            # checker.collectOutputFormToTXT()
-            # res = checker.compareOutput()
-            # print(f"{student_name}: {res}")
-            checker.printResultToTXT()
+        with open("result.csv", "a") as f:
+            student = self.filename.split("_")
+            try:
+                student = student[3]
+            except:
+                student = student
+            percentage, message = self.compareOutput()
+            f.write(f"{student};{percentage}\n")

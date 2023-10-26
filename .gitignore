@@ -3,3 +3,5 @@
 .vscode
 
 code/**.c
+code/**.h
+code/**
