@@ -1,506 +1,121 @@
-23062671332: 100.0
+AdiNugroho: 100.0
+Expected: 29 | Actual: 29
+Expected: 8 | Actual: 8
+Expected: 8 | Actual: 8
+Expected: 866 | Actual: 866
+Expected: 32 | Actual: 32
+Expected: 16 | Actual: 16
+Expected: 750797 | Actual: 750797
+Expected: 256 | Actual: 256
+Expected: 32 | Actual: 32
 
-NaufalHadiRasikhin: 0.0
-Expected: ADATIDAKADAADA
-Actual: 
-Expected: ADAADATIDAKTIDAK
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: TIDAKTIDAKADAADA
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: TIDAKTIDAKTIDAKADA
-Actual: 
-Expected: TIDAKTIDAKADAADA
-Actual: 
-Expected: TIDAKTIDAKTIDAKTIDAK
-Actual: 
+BenedictAurelius: 100.0
+Expected: 29 | Actual: 29
+Expected: 8 | Actual: 8
+Expected: 8 | Actual: 8
+Expected: 866 | Actual: 866
+Expected: 32 | Actual: 32
+Expected: 16 | Actual: 16
+Expected: 750797 | Actual: 750797
+Expected: 256 | Actual: 256
+Expected: 32 | Actual: 32
 
-AdhikanandaWiraJanuar: 88.88888888888889
-Expected: ADAADAADAADA
-Actual: TIDAKTIDAKTIDAKTIDAK
+FilagaTifiraMuthi: 100.0
+Expected: 29 | Actual: 29
+Expected: 8 | Actual: 8
+Expected: 8 | Actual: 8
+Expected: 866 | Actual: 866
+Expected: 32 | Actual: 32
+Expected: 16 | Actual: 16
+Expected: 750797 | Actual: 750797
+Expected: 256 | Actual: 256
+Expected: 32 | Actual: 32
 
-AlfonsusTanara: 0.0
-Expected: ADATIDAKADAADA
-Actual: TIDAKTIDAKTIDAK
-Expected: ADAADATIDAKTIDAK
-Actual: TIDAKADAADA
-Expected: ADAADAADAADA
-Actual: ADAADAADA
-
-AndhikaFadhlanWijanarko: 0.0
-
-DaffaSayraFirdaus: 100.0
-
-DhafinHamizanSetiawan: 100.0
-
-MAvicennaRaffaizAdiharsa: 0.0
-Expected: ADATIDAKADAADA
-Actual: 8:ADAdideretfibonacciasliADAADAADA
-Expected: ADAADATIDAKTIDAK
-Actual: 5:ADAdideretfibonacciasliADAADAADA
-Expected: ADAADAADAADA
-Actual: 2:ADAdideretfibonacciasliADAADAADA
-Expected: TIDAKTIDAKADAADA
-Actual: 32:TIDAKadadideretfibonacciasliTIDAKTIDAKTIDAK
-Expected: ADAADAADAADA
-Actual: 0:ADAdideretfibonacciasliADAADAADA
-Expected: ADAADAADAADA
-Actual: 1:ADAdideretfibonacciasliADAADAADA
-Expected: TIDAKTIDAKTIDAKADA
-Actual: 16:TIDAKadadideretfibonacciasliTIDAKTIDAKTIDAK
-Expected: TIDAKTIDAKADAADA
-Actual: 256:TIDAKadadideretfibonacciasliTIDAKTIDAKTIDAK
-Expected: TIDAKTIDAKTIDAKTIDAK
-Actual: 6:TIDAKadadideretfibonacciasliTIDAKTIDAKTIDAK
-
-ReyhanAhnafDeannova: 100.0
-
-FathanYazidSatriani: 100.0
-
-FauzanFarrasHakimBudiHandoyo: 55.55555555555556
-Expected: ADAADATIDAKTIDAK
-Actual: ADAADATIDAK
-Expected: TIDAKTIDAKADAADA
-Actual: TIDAKTIDAKTIDAKADA
-Expected: ADAADAADAADA
-Actual: 
-Expected: TIDAKTIDAKADAADA
-Actual: TIDAKTIDAKTIDAKADA
-
-GanendraGardaPratama: 100.0
-
-IsyanaTreviaPohaci: 33.33333333333333
-Expected: ADATIDAKADAADA
-Actual: TIDAKTIDAKTIDAKTIDAK
-Expected: ADAADATIDAKTIDAK
-Actual: ADAADAADAADA
-Expected: TIDAKTIDAKADAADA
-Actual: TIDAKTIDAKTIDAKTIDAK
-Expected: TIDAKTIDAKTIDAKADA
-Actual: TIDAKTIDAKTIDAKTIDAK
-
-MuhamadReyKafakaFadlan: 66.66666666666666
-Expected: ADAADAADAADA
-Actual: TIDAKTIDAKADATIDAK
-
-R.AishaSyauqiRamadhani: 100.0
-
-SamihBassam: 88.88888888888889
-Expected: ADAADAADAADA
-Actual: 
-
-ZhafiraZahraAlfarisy: 100.0
-
-PROGDAS6: 77.77777777777779
-Expected: ADAADAADAADA
-Actual: Masukkanangka:ADAADAADATIDAK
-Expected: ADAADAADAADA
-Actual: Masukkanangka:ADAADATIDAKTIDAK
-
-AdhiRajasaRafif: 55.55555555555556
-Expected: TIDAKTIDAKADAADA
-Actual: TIDAKTIDAKADATIDAK
-Expected: ADAADAADAADA
-Actual: TIDAKTIDAKADAADA
-Expected: TIDAKTIDAKTIDAKADA
-Actual: TIDAKTIDAKTIDAKTIDAK
-Expected: TIDAKTIDAKADAADA
-Actual: TIDAKTIDAKADATIDAK
-
-AudyNatalieCeciliaRumahorbo: 100.0
-
-DaffaBagusDhiananto: 88.88888888888889
-Expected: ADAADAADAADA
-Actual: 
-
-EkanandaZhafifDean: 66.66666666666666
-Expected: ADAADAADAADA
-Actual: TIDAKTIDAKADATIDAK
-
-IzzanNawaSyarif: 22.22222222222222
-Expected: ADAADAADAADA
-Actual: TIDAKTIDAKADATIDAK
-
-LauraFawziaSambowo: 100.0
-
-MuhamadDzakyMaulana: 44.44444444444444
-Expected: ADATIDAKADAADA
-Actual: ADAADATIDAKADA
-Expected: ADAADATIDAKTIDAK
-Actual: TIDAKTIDAKADAADA
-Expected: TIDAKTIDAKADAADA
-Actual: ADAADATIDAKTIDAK
-Expected: TIDAKTIDAKTIDAKADA
-Actual: ADATIDAKTIDAKTIDAK
-Expected: TIDAKTIDAKADAADA
-Actual: ADAADATIDAKTIDAK
-
-BonifasiusRadityaPanduHendrianto: 88.88888888888889
-Expected: ADAADAADAADA
-Actual: ADAADAADATIDAK
-
-FarhanRamadhaniZakiyyandi: 0.0
-
-JonathanFrederickKosasih: 0.0
-
-KharismaAprilia: 100.0
-
-MaharakaFadhilah: 0.0
-
-MatthewImmanuel: 77.77777777777779
-
-MaxwellZefanyaGinting: 77.77777777777779
-
-MuhammadRiyanSatrioWibowo: 100.0
-
-NugrohoUlilAbshar: 55.55555555555556
-Expected: TIDAKTIDAKADAADA
-Actual: TIDAKTIDAKADATIDAK
-Expected: TIDAKTIDAKTIDAKADA
-Actual: TIDAKTIDAKTIDAKTIDAK
-
-SyahmiHamdani: 44.44444444444444
-Expected: ADAADATIDAKTIDAK
-Actual: ADAADATIDAKADATIDAKADA
-Expected: TIDAKTIDAKADAADA
-Actual: TIDAKADATIDAKADAADAADA
-Expected: TIDAKTIDAKTIDAKADA
-Actual: TIDAKADATIDAKADATIDAKADAADA
-Expected: TIDAKTIDAKADAADA
-Actual: TIDAKADATIDAKADAADAADA
-Expected: TIDAKTIDAKTIDAKTIDAK
-Actual: TIDAKADATIDAKADATIDAKADATIDAKADA
-
-RubenKristanto: 0.0
-Expected: ADATIDAKADAADA
-Actual: 
-Expected: ADAADATIDAKTIDAK
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: TIDAKTIDAKADAADA
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: TIDAKTIDAKTIDAKADA
-Actual: 
-Expected: TIDAKTIDAKADAADA
-Actual: 
-Expected: TIDAKTIDAKTIDAKTIDAK
-Actual: 
-
-DwiginaSittiZahwa: 100.0
-
-FidoWahyuChoirulinsan: 0.0
-
-MuhammadRafli: 22.22222222222222
-Expected: ADATIDAKADAADA
-Actual: ADAADAADAADA
-Expected: ADAADATIDAKTIDAK
-Actual: ADAADAADAADA
-Expected: TIDAKTIDAKADAADA
-Actual: ADAADATIDAKADA
-Expected: ADAADAADAADA
-Actual: TIDAKTIDAKTIDAKTIDAK
-Expected: TIDAKTIDAKTIDAKADA
-Actual: ADAADATIDAKADA
-
-NeylaShakira: 100.0
-
-PutriKiaraSalsabilaArief: 33.33333333333333
-Expected: ADATIDAKADAADA
-Actual: ==============================================================================Tolongmasukkanangkayangakandicekapakahterdapatpadaderetatautidak:==============================================================================ADATIDAKTIDAKTIDAK
-Expected: ADAADAADAADA
-Actual: ==============================================================================Tolongmasukkanangkayangakandicekapakahterdapatpadaderetatautidak:==============================================================================TIDAKTIDAKTIDAKADA
-Expected: TIDAKTIDAKADAADA
-Actual: ==============================================================================Tolongmasukkanangkayangakandicekapakahterdapatpadaderetatautidak:==============================================================================TIDAKTIDAKTIDAKTIDAK
-Expected: TIDAKTIDAKTIDAKADA
-Actual: ==============================================================================Tolongmasukkanangkayangakandicekapakahterdapatpadaderetatautidak:==============================================================================TIDAKTIDAKTIDAKTIDAK
-
-Raddief Ezra Satrio Andaru: 0.0
-Expected: ADATIDAKADAADA
-Actual: 
-Expected: ADAADATIDAKTIDAK
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: TIDAKTIDAKADAADA
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: TIDAKTIDAKTIDAKADA
-Actual: 
-Expected: TIDAKTIDAKADAADA
-Actual: 
-Expected: TIDAKTIDAKTIDAKTIDAK
-Actual: 
-
-Rafi Naufal Aryaputra: 0.0
-Expected: ADATIDAKADAADA
-Actual: 
-Expected: ADAADATIDAKTIDAK
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: TIDAKTIDAKADAADA
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: TIDAKTIDAKTIDAKADA
-Actual: 
-Expected: TIDAKTIDAKADAADA
-Actual: 
-Expected: TIDAKTIDAKTIDAKTIDAK
-Actual: 
-
-AhmadFarizKhari: 88.88888888888889
-Expected: ADAADAADAADA
-Actual: 
-
-ArsintaKiranaNisa: 0.0
-
-BryanHerdianto: 100.0
-
-DeandroNajwanAhmadSyahbanna: 88.88888888888889
-Expected: ADAADAADAADA
-Actual: TIDAKTIDAKTIDAKTIDAK
-
-MirzaAdiraffiansyah: 33.33333333333333
-
-MuhammadAryaWiandraUtomo: 88.88888888888889
-Expected: ADAADAADAADA
-Actual: 
-
-MuhammadIkhsanKurniawan: 88.88888888888889
-Expected: ADAADAADAADA
-Actual: TIDAKADAADAADA
-
-MuhammadRadityaAlifNugroho: 100.0
+JavanaMuhammadDzaki: 77.77777777777779
+Expected: 29 | Actual: 29
+Expected: 8 | Actual: 8
+Expected: 8 | Actual: 8
+Expected: 866 | Actual: 866
+Expected: 32 | Actual: 32
+Expected: 16 | Actual: 13
+Expected: 750797 | Actual: 750797
+Expected: 256 | Actual: 256
+Expected: 32 | Actual: 19
 
 JesieTenardi: 100.0
+Expected: 29 | Actual: 29
+Expected: 8 | Actual: 8
+Expected: 8 | Actual: 8
+Expected: 866 | Actual: 866
+Expected: 32 | Actual: 32
+Expected: 16 | Actual: 16
+Expected: 750797 | Actual: 750797
+Expected: 256 | Actual: 256
+Expected: 32 | Actual: 32
 
-AdiNugroho: 100.0
+MuhammadNadzhifFikri: 100.0
+Expected: 29 | Actual: 29
+Expected: 8 | Actual: 8
+Expected: 8 | Actual: 8
+Expected: 866 | Actual: 866
+Expected: 32 | Actual: 32
+Expected: 16 | Actual: 16
+Expected: 750797 | Actual: 750797
+Expected: 256 | Actual: 256
+Expected: 32 | Actual: 32
 
-BenedictAurelius: 0.0
+MusyaffaImanSupriadi: 100.0
+Expected: 29 | Actual: 29
+Expected: 8 | Actual: 8
+Expected: 8 | Actual: 8
+Expected: 866 | Actual: 866
+Expected: 32 | Actual: 32
+Expected: 16 | Actual: 16
+Expected: 750797 | Actual: 750797
+Expected: 256 | Actual: 256
+Expected: 32 | Actual: 32
 
-FilagaTifiraMuthi: 0.0
+MutiaCasella: 66.66666666666666
+Expected: 29 | Actual: 28
+Expected: 8 | Actual: 8
+Expected: 8 | Actual: 8
+Expected: 866 | Actual: 807
+Expected: 32 | Actual: 32
+Expected: 16 | Actual: 16
+Expected: 750797 | Actual: 652032
+Expected: 256 | Actual: 256
+Expected: 32 | Actual: 32
 
-JavanaMuhammadDzaki: 0.0
+Salim: 77.77777777777779
+Expected: 29 | Actual: 29
+Expected: 8 | Actual: 8
+Expected: 8 | Actual: 8
+Expected: 866 | Actual: 866
+Expected: 32 | Actual: 32
+Expected: 16 | Actual: 13
+Expected: 750797 | Actual: 750797
+Expected: 256 | Actual: 256
+Expected: 32 | Actual: 19
 
-MuhamadHakimNizami: 0.0
+ShafwanHasyim: 100.0
+Expected: 29 | Actual: 29
+Expected: 8 | Actual: 8
+Expected: 8 | Actual: 8
+Expected: 866 | Actual: 866
+Expected: 32 | Actual: 32
+Expected: 16 | Actual: 16
+Expected: 750797 | Actual: 750797
+Expected: 256 | Actual: 256
+Expected: 32 | Actual: 32
 
-MuhammadNadzhifFikri: 0.0
-
-MusyaffaImanSupriadi: 11.11111111111111
-
-MutiaCasella: 22.22222222222222
-Expected: ADAADATIDAKTIDAK
-Actual: ADAADAADAADA
-
-Salim: 0.0
-Expected: ADATIDAKADAADA
-Actual: adatidakadaada
-Expected: ADAADATIDAKTIDAK
-Actual: adaadatidaktidak
-Expected: ADAADAADAADA
-Actual: adaadaadaada
-Expected: TIDAKTIDAKADAADA
-Actual: tidaktidakadatidak
-Expected: ADAADAADAADA
-Actual: adaadatidakada
-Expected: ADAADAADAADA
-Actual: adaadaadaada
-Expected: TIDAKTIDAKTIDAKADA
-Actual: tidaktidaktidaktidak
-
-ShafwanHasyim: 22.22222222222222
-Expected: ADAADATIDAKTIDAK
-Actual: ADAADATIDAKADATIDAKADA
-
-WesleyFrederickOh : 0.0
-Expected: ADATIDAKADAADA
-Actual: 
-Expected: ADAADATIDAKTIDAK
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: TIDAKTIDAKADAADA
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: TIDAKTIDAKTIDAKADA
-Actual: 
-Expected: TIDAKTIDAKADAADA
-Actual: 
-Expected: TIDAKTIDAKTIDAKTIDAK
-Actual: 
-
-AlexanderChristhian: 33.33333333333333
-
-MuhammadHilmiAlMuttaqi: 100.0
-
-MuhammadHilmyMahardika: 100.0
-
-RyanAdidaruExcelBarnabi: 11.11111111111111
-Expected: ADATIDAKADAADA
-Actual: ADATIDAKADATIDAK
-Expected: ADAADATIDAKTIDAK
-Actual: ADAADAADATIDAK
-Expected: TIDAKTIDAKADAADA
-Actual: TIDAKTIDAKADATIDAK
-Expected: ADAADAADAADA
-Actual: TIDAKTIDAKADATIDAK
-Expected: ADAADAADAADA
-Actual: ADAADAADATIDAK
-Expected: TIDAKTIDAKTIDAKADA
-Actual: TIDAKTIDAKADATIDAK
-Expected: TIDAKTIDAKADAADA
-Actual: TIDAKTIDAKADATIDAK
-Expected: TIDAKTIDAKTIDAKTIDAK
-Actual: TIDAKTIDAKADATIDAK
-
-TeufikAliHadzalic: 100.0
-
-AisyaRiveliaAzzahra: 0.0
-
-Alicia: 22.22222222222222
-Expected: ADAADATIDAKTIDAK
-Actual: ADAADAADAADA
-
-AliyaRizqiningrumSalamun: 33.33333333333333
-
-ANTHONIUSHENDHYWIRAWAN: 0.0
-
-AzraNabilaAzzahra: 0.0
-
-DaffaHardhan: 0.0
-
-IbnuZakyFauzi: 88.88888888888889
-Expected: ADAADAADAADA
-Actual: 
-
-NelsonLaurensius: 11.11111111111111
-
-Rakaarrayan: 33.33333333333333
-
-SitiAmaliaNurfaidah: 0.0
-
-WilmanSaragihSitio: 33.33333333333333
-
-Gerrardin Nabil Zulhian: 0.0
-Expected: ADATIDAKADAADA
-Actual: 
-Expected: ADAADATIDAKTIDAK
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: TIDAKTIDAKADAADA
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: TIDAKTIDAKTIDAKADA
-Actual: 
-Expected: TIDAKTIDAKADAADA
-Actual: 
-Expected: TIDAKTIDAKTIDAKTIDAK
-Actual: 
-
-NabielHaritsUtomo: 88.88888888888889
-Expected: ADAADAADAADA
-Actual: 
-
-AzkaNabihan: 100.0
-
-CalvinWirathamaKatoroy: 11.11111111111111
-Expected: ADATIDAKADAADA
-Actual: TIDAKTIDAKTIDAKTIDAK
-Expected: ADAADAADAADA
-Actual: TIDAKTIDAKADAADA
-Expected: TIDAKTIDAKADAADA
-Actual: TIDAKTIDAKTIDAKTIDAK
-Expected: ADAADAADAADA
-Actual: TIDAKTIDAKTIDAKTIDAK
-Expected: ADAADAADAADA
-Actual: ADATIDAKTIDAKADA
-Expected: TIDAKTIDAKTIDAKADA
-Actual: TIDAKTIDAKTIDAKTIDAK
-Expected: TIDAKTIDAKADAADA
-Actual: TIDAKTIDAKTIDAKTIDAK
-Expected: TIDAKTIDAKTIDAKTIDAK
-Actual: TIDAKTIDAKADATIDAK
-
-Muhammad Pavel: 0.0
-Expected: ADATIDAKADAADA
-Actual: 
-Expected: ADAADATIDAKTIDAK
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: TIDAKTIDAKADAADA
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: ADAADAADAADA
-Actual: 
-Expected: TIDAKTIDAKTIDAKADA
-Actual: 
-Expected: TIDAKTIDAKADAADA
-Actual: 
-Expected: TIDAKTIDAKTIDAKTIDAK
-Actual: 
-
-RiviYashaHafizhan: 66.66666666666666
-Expected: ADAADATIDAKTIDAK
-Actual: ADAADATidakTIDAK
-Expected: TIDAKTIDAKTIDAKADA
-Actual: TIDAKTIDAKTidakADA
-Expected: TIDAKTIDAKTIDAKTIDAK
-Actual: TIDAKTIDAKTidakTIDAK
-
-StevieNathaniaS: 0.0
-Expected: ADATIDAKADAADA
-Actual: ADATIDAKTIDAKTIDAK
-Expected: ADAADATIDAKTIDAK
-Actual: ADATIDAKTIDAKTIDAK
-Expected: ADAADAADAADA
-Actual: ADAADATIDAKADA
-
-AndiMuhammadAlvinFarhansyah: 0.0
-
-AbednegoZebua: 0.0
-
-AxelAdrialPazaKalembang: 0.0
-
-ChristianHadiwijaya: 55.55555555555556
-
-FadhlurezaSebastian: 100.0
-
-FalahAndhesryo: 100.0
-
-GEDERAMAPRADNYA: 33.33333333333333
-
-JESAYADAVID: 66.66666666666666
-Expected: ADAADAADAADA
-Actual: TIDAKTIDAKTIDAKTIDAK
-
-JonathanMatiusWeniGerimu: 22.22222222222222
-
-MuhammadRaihanMustofa: 0.0
-
-TRIYOGAARSYAD: 0.0
+WesleyFrederickOh: 100.0
+Expected: 29 | Actual: 29
+Expected: 8 | Actual: 8
+Expected: 8 | Actual: 8
+Expected: 866 | Actual: 866
+Expected: 32 | Actual: 32
+Expected: 16 | Actual: 16
+Expected: 750797 | Actual: 750797
+Expected: 256 | Actual: 256
+Expected: 32 | Actual: 32
 

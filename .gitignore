@@ -5,3 +5,8 @@
 code/**.c
 code/**.h
 code/**
+
+__pycache__/
+.vscode/
+result.csv
+result.txt

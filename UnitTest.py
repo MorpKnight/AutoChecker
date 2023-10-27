@@ -3,6 +3,8 @@ import os, subprocess
 import threading
 from time import sleep
 
+from pyparsing import counted_array
+
 class UnitTest:
     def __init__(self, filename, inputTest, expectedOutput):
         self.filename = filename
@@ -14,15 +16,20 @@ class UnitTest:
         self.assert_event = threading.Event()
 
     def compileC(self):
+        # rename file remove space
+        os.rename(self.filename, self.filename.replace(" ", ""))
+        sleep(1)
+
         if os.path.exists(self.filename + ".exe"):
             return True
         compileCmd = f"gcc {self.filename} -o {self.filename.replace('.c', '')}"
         try:
             result = os.system(compileCmd)
         except:
-            print(f"Compile {self.filename} failed")
-            exit(1)
+            print("Compile Error")
+            return False
         self.filename = self.filename.replace(".c", "")
+        sleep(3)
     
     def count5Seconds(self):
         sleep(10)
@@ -67,32 +74,19 @@ class UnitTest:
         if len(expectedLines) != len(actualLines):
             print("Test case is not equal")
 
+        count = 0
         for expected, actual in zip(expectedLines, actualLines):
+            count += 1
+            message += f"Expected: {expected} | Actual: {actual}\n"
             if expected in actual:
                 matchingLines += 1
-                # print test number is passed
-                print(f"Test {indexOf(actualLines, actual) + 1}: AC")
+                print(f"Test {count}: ✅")
             else:
-                message += f"Expected: {expected}\nActual: {actual}\n"
-                print(f"Test {indexOf(actualLines, actual) + 1}: WA")
+                print(f"Test {count}: ❌")
 
         percentage = matchingLines / totalLines * 100
 
         return percentage, message
-    
-    def collectOutputFormToTXT(self):
-        if not os.path.exists("output.txt"):
-            open("output.txt", "w").close()
-
-        with open("output.txt", "a") as f:
-            for output in self.actualOutputList:
-                f.write(output)
-                f.write("\n")
-            f.write("\n")
-
-    def removeSpaceNameFile(self):
-        if " " in self.filename:
-            self.filename = self.filename.replace(" ", "")
 
     def printResultToTXT(self):
         if not os.path.exists("result.txt"):
