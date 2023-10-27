@@ -12,10 +12,6 @@ if __name__ == '__main__':
         if file.endswith(".c"):
             filename = os.path.join("code", file)
             checker = UnitTest(filename, inputTest, outputTest)
-            checker.compileC()
-            checker.assertInputProgram()
-            checker.printResultToCSV()
-            checker.printResultToTXT()
 
     # checker = UnitTest("code\CS1_GI_PROGDAS6_MuhammadNadzhifFikri_2306210102.c", inputTest, outputTest)
     # checker.compileC()

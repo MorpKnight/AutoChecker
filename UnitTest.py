@@ -1,9 +1,6 @@
-from operator import indexOf
 import os, subprocess
 import threading
 from time import sleep
-
-from pyparsing import counted_array
 
 class UnitTest:
     def __init__(self, filename, inputTest, expectedOutput):
@@ -12,11 +9,9 @@ class UnitTest:
         self.expectedOutput = expectedOutput
         self.actualOutput = None
         self.actualOutputList = []
-        self.count_event = threading.Event()
-        self.assert_event = threading.Event()
+        self.main()
 
     def compileC(self):
-        # rename file remove space
         os.rename(self.filename, self.filename.replace(" ", ""))
         sleep(1)
 
@@ -24,12 +19,13 @@ class UnitTest:
             return True
         compileCmd = f"gcc {self.filename} -o {self.filename.replace('.c', '')}"
         try:
-            result = os.system(compileCmd)
+            os.system(compileCmd)
         except:
             print("Compile Error")
             return False
         self.filename = self.filename.replace(".c", "")
         sleep(3)
+        return True
     
     def count5Seconds(self):
         sleep(10)
@@ -112,3 +108,9 @@ class UnitTest:
                 student = student
             percentage, message = self.compareOutput()
             f.write(f"{student};{percentage}\n")
+
+    def main(self):
+        self.compileC()
+        self.assertInputProgram()
+        self.printResultToCSV()
+        self.printResultToTXT()
