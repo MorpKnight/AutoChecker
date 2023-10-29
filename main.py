@@ -1,23 +1,9 @@
-from email import message
-import time
-from UnitTest import UnitTest
-import os
-from time import sleep
+from UnitTest import UnitTest as UT
+from Extractor import Extractor as EX
 
 if __name__ == '__main__':
-    inputTest = ["1 5", "2 5", "3 5", "1 6", "2 6", "3 6", "1 7", "2 7", "3 7"]
-    outputTest = ["29", "8", "8", "866", "32", "16", "750797", "256", "32"]
+    input_test = ["1 -2 1", "1 0 -1", "1 -1 6", "2 -5 2", "6 1 -35", "1 1 -1", "1 1 -5", "3 6 -9", "2.5 -9 6.8", "28.2 41.15 -33.6"]
+    expected_output = ["1.001.00", "1.00-1.00", "3.00-2.00", "2.000.50", "2.33-2.50", "0.62-1.62", "1.79-2.79", "1.00-3.00", "2.521.08", "0.58-2.04"]
 
-    for file in os.listdir("code"):
-        if file.endswith(".c"):
-            filename = os.path.join("code", file)
-            checker = UnitTest(filename, inputTest, outputTest)
-
-    # checker = UnitTest("code\CS1_GI_PROGDAS6_MuhammadNadzhifFikri_2306210102.c", inputTest, outputTest)
-    # checker.compileC()
-    # sleep(1)
-    # checker.assertInputProgram()
-    # # checker.multiThreadAssert()
-    # res, message = checker.compareOutput()
-    # print(res)
-    # print(message)
+    checker = UT("code\\Unprak1", input_test=input_test, output_test=expected_output)
+    checker.run()
