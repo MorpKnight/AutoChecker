@@ -2,7 +2,7 @@ import zipfile, os, mosspy
 from time import sleep
 
 class Extractor:
-    def __init__(self, path):
+    def __init__(self, path, **kwargs):
         """
         The function initializes an object with a given path and assigns a user ID to a variable.
         
@@ -11,6 +11,7 @@ class Extractor:
         from or written to
         """
         self.path = path
+        self.folderName:list = kwargs.get('folderName', [])
         self.userid_moss = 220418487
 
     def extract(self):
@@ -83,18 +84,17 @@ class Extractor:
         The function separates files in a given directory into two separate directories based on the
         name of the file.
         """
-        if not os.path.exists('SESI1'):
-            os.makedirs('SESI1')
-        if not os.path.exists('SESI2'):
-            os.makedirs('SESI2')
+        for folder in self.folderName:
+            if not os.path.exists(os.path.join(self.path, folder)):
+                os.makedirs(os.path.join(self.path, folder))
 
+        sleep(1)
         for root, dirs, files in os.walk(self.path):
             for file in files:
-                fileName = os.path.join(root, file).split('_')[1]
-                if 'SESI1' in fileName.upper():
-                    os.rename(fileName, 'SESI1/' + file)
-                elif 'SESI2' in fileName.upper():
-                    os.rename(fileName, 'SESI2/' + file)
+                for folder in self.folderName:
+                    if folder in file:
+                        os.rename(os.path.join(root, file), os.path.join(self.path, folder, file))
+                        print('Moved: ' + os.path.join(root, file) + ' to ' + os.path.join(self.path, folder, file))
 
     def check_plagiarism(self):
         moss = mosspy.Moss(self.userid_moss, "C")
@@ -105,11 +105,17 @@ class Extractor:
             print(f"Report Url {mossPath}: " + url)
 
     def run(self):
-        self.extract()
+        try:
+            self.extract()
+            print('Extracted')
+        except:
+            print('Failed to extract')
         sleep(2)
-        self.remove_zip()
-        sleep(2)
-        self.separate_file_by_name()
+        try:
+            self.separate_file_by_name()
+            print('Separated')
+        except:
+            print('Failed to separate')
         sleep(2)
         self.remove_space()
         sleep(2)
@@ -117,4 +123,5 @@ class Extractor:
         sleep(2)
         self.remove_empty_folder()
         sleep(2)
-        self.check_plagiarism()
+        print('Done')
+        # self.check_plagiarism()

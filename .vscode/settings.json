@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "CS2_PROGDAS7_IMAMLUTHFI_2306242376.C": "cpp"
     },
     "cmake.sourceDirectory": "D:/Programming/Python/AutoChecker/code"
 }
