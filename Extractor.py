@@ -40,17 +40,11 @@ class Extractor:
         for root, dirs, files in os.walk(self.path):
             for file in files:
                 if file.endswith('.zip'):
-                    os.remove(os.path.join(root, file))
+                    try:
+                        os.remove(os.path.join(root, file))
+                    except:
+                        print('Failed to remove: ' + os.path.join(root, file))
 
-    def remove_space(self):
-        """
-        The function removes spaces from file names in a given directory and its subdirectories.
-        """
-        for root, dirs, files in os.walk(self.path):
-            for file in files:
-                if ' ' in files:
-                    os.rename(os.path.join(root, file), os.path.join(root, file.replace(' ', '')))
-    
     def uppercase_filename(self):
         """
         The function `uppercase_filename` recursively renames all files in a given directory and its
@@ -59,6 +53,8 @@ class Extractor:
         for root, dirs, files in os.walk(self.path):
             for file in files:
                 os.rename(os.path.join(root, file), os.path.join(root, file.upper()))
+                # rename all extension to lowercase
+                os.rename(os.path.join(root, file.upper()), os.path.join(root, file.upper().replace('.C', '.c')))
 
     def remove_picture(self):
         """
@@ -84,17 +80,20 @@ class Extractor:
         The function separates files in a given directory into two separate directories based on the
         name of the file.
         """
-        for folder in self.folderName:
-            if not os.path.exists(os.path.join(self.path, folder)):
-                os.makedirs(os.path.join(self.path, folder))
+        try:
+            for folder in self.folderName:
+                if not os.path.exists(os.path.join(self.path, folder)):
+                    os.makedirs(os.path.join(self.path, folder))
 
-        sleep(1)
-        for root, dirs, files in os.walk(self.path):
-            for file in files:
-                for folder in self.folderName:
-                    if folder in file:
-                        os.rename(os.path.join(root, file), os.path.join(self.path, folder, file))
-                        print('Moved: ' + os.path.join(root, file) + ' to ' + os.path.join(self.path, folder, file))
+            sleep(1)
+            for root, dirs, files in os.walk(self.path):
+                for file in files:
+                    for folder in self.folderName:
+                        if folder in file:
+                            os.rename(os.path.join(root, file), os.path.join(self.path, folder, file))
+                            print('Moved: ' + os.path.join(root, file) + ' to ' + os.path.join(self.path, folder, file))
+        except:
+            print('Failed to separate')
 
     def check_plagiarism(self):
         moss = mosspy.Moss(self.userid_moss, "C")
@@ -105,23 +104,4 @@ class Extractor:
             print(f"Report Url {mossPath}: " + url)
 
     def run(self):
-        try:
-            self.extract()
-            print('Extracted')
-        except:
-            print('Failed to extract')
-        sleep(2)
-        try:
-            self.separate_file_by_name()
-            print('Separated')
-        except:
-            print('Failed to separate')
-        sleep(2)
-        self.remove_space()
-        sleep(2)
-        self.remove_picture()
-        sleep(2)
-        self.remove_empty_folder()
-        sleep(2)
-        print('Done')
-        # self.check_plagiarism()
+        pass

@@ -43,6 +43,7 @@ class UnitTest:
         self.input_test = kwargs.get("input_test")
         self.expected_output = kwargs.get("output_test")
         self.kode_aslab = kwargs.get("kode_aslab")
+        self.regex:bool = kwargs.get("regex")
         self.actual_output = None
         self.actual_output_list = []
         self.student:Student = []
@@ -99,6 +100,34 @@ class UnitTest:
             else:
                 self.actual_output_list.append(stderr)
 
+    def compare_output_regex(self):
+        message = ""
+
+        try:
+            expected_lines = self.expected_output
+            actual_lines = self.actual_output_list
+        except:
+            expected_lines = self.expected_output.splitlines()
+            actual_lines = self.actual_output.splitlines()
+        matching_lines = 0
+        total_lines = max(len(expected_lines), len(actual_lines))
+        if len(expected_lines) != len(actual_lines):
+            print(f"Expected {len(expected_lines)} lines but got {len(actual_lines)} lines")
+
+        count = 0
+        for expected_line, actual_line in zip(expected_lines, actual_lines):
+            try:
+                count += 1
+                if re.search(expected_line, actual_line):
+                    matching_lines += 1
+                else:
+                    message += f"Test {count}: Expected {expected_line} but got {actual_line}\n"
+            except:
+                print(f"Error while checking {self.filename}\n")
+
+        percentage = matching_lines / total_lines * 100
+        return percentage, message
+
     def compare_output(self):
         """
         The function `compare_output` compares the expected output with the actual output and returns
@@ -122,12 +151,15 @@ class UnitTest:
             
         count = 0
         for expected_line, actual_line in zip(expected_lines, actual_lines):
-            count += 1
-            # message += f"{re.search(expected_line, actual_line)}"
-            if expected_line == actual_line:
-                matching_lines += 1
-            else:
-                message += f"Test {count}: Expected {expected_line} but got {actual_line}\n"
+            try:
+                count += 1
+                # message += f"{re.search(expected_line, actual_line)}"
+                if expected_line in actual_line:
+                    matching_lines += 1
+                else:
+                    message += f"Test {count}: Expected {expected_line} but got {actual_line}\n"
+            except:
+                print(f"Error while checking {self.filename}\n")
 
         percentage = matching_lines / total_lines * 100
         return percentage, message
@@ -168,7 +200,8 @@ class UnitTest:
         :return: a boolean value. If there are any matches found in the content of the file that match
         the specified regular expression pattern, it will return True. Otherwise, it will return False.
         """
-        regex_pattern = r'(for\s*\(.*\)\s*\{)|(while\s*\(.*\)\s*\{)|(do\s*\{.*\}\s*while\s*\(.*\);)|(if\s*\(.*\)\s*\{.*\}\s*else\s*\{)|(switch\s*\(.*\)\s*\{)'
+        # regex_pattern = r'(for\s*\(.*\)\s*\{)|(while\s*\(.*\)\s*\{)|(do\s*\{.*\}\s*while\s*\(.*\);)|(if\s*\(.*\)\s*\{.*\}\s*else\s*\{)|(switch\s*\(.*\)\s*\{)'
+        regex_pattern = r'for\s*\(.*\)\s*\{.*for\s*\(.*\)\s*\{'
         with open(f"{self.filename}.c", "r") as f:
             content = f.read()
             matches = re.findall(regex_pattern, content)
@@ -185,10 +218,8 @@ class UnitTest:
         The function iterates through all ".c" files in a specified folder, compiles and tests each
         file, compares the output, and generates a result CSV file.
         """
-        count = 0
-        for file in os.listdir(self.folder_name):
-            if file.endswith(".c"):
-                count += 1
+
+        count = len(list(filter(lambda file:file.endswith(".c") or file.endswith(".C"), os.listdir(self.folder_name))))
         print(f"\rTesting {0}/{count} files", end="")
         
         count_rn = 0
@@ -198,12 +229,18 @@ class UnitTest:
                 print(f"\rTesting {count_rn}/{count} files", end="")
                 self.filename = os.path.join(self.folder_name, file)
                 boolCheck = self.compileC()
+                try:
+                    student_name = self.filename.split("_")[3]
+                except:
+                    student_name = self.filename
                 if not boolCheck:
-                    self.student.append(Student(self.filename.split("_")[3], 0, "Compile Error", self.kode_aslab, False))
+                    self.student.append(Student(student_name, 0, "Compile Error", self.kode_aslab, False))
                     continue
                 self.test()
-                perc, msg = self.compare_output()
-                student_name = self.filename.split("_")[3]
+                if self.regex:
+                    perc, msg = self.compare_output_regex()
+                else:
+                    perc, msg = self.compare_output()
                 perc = round(perc, 2)
                 try:
                     self.student.append(Student(student_name, perc, msg, self.kode_aslab, self.checkProgram()))

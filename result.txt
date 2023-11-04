@@ -1,0 +1,850 @@
+Name: AlexanderChristhian
+Score: 100.0
+Check program: False
+
+Name: MuhammadHilmyMahardika
+Score: 70.0
+Check program: False
+Message:
+Test 4: Expected TIDAK but got IYA
+Test 7: Expected TIDAK but got IYA
+Test 9: Expected TIDAK but got IYA
+
+
+Name: NabielHaritsUtomo
+Score: 60.0
+Check program: False
+Message:
+Test 3: Expected TIDAK but got YA
+Test 4: Expected TIDAK but got YA
+Test 7: Expected TIDAK but got YA
+Test 9: Expected TIDAK but got YA
+
+
+Name: TeufikAliHadzalic
+Score: 100.0
+Check program: False
+
+Name: AzkaNabihan
+Score: 100.0
+Check program: False
+
+Name: MuhammadIrfanFakhrianto
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: MuhammadPavel
+Score: 100.0
+Check program: False
+
+Name: NaufalHadiRasikhin
+Score: 100.0
+Check program: False
+
+Name: RiviYashaHafizhan
+Score: 100.0
+Check program: False
+
+Name: StevieNathaniaSiregar
+Score: 40.0
+Check program: False
+Message:
+Test 1: Expected YA but got TIDAK
+Test 2: Expected YA but got TIDAK
+Test 5: Expected YA but got TIDAK
+Test 6: Expected YA but got TIDAK
+Test 8: Expected YA but got TIDAK
+Test 10: Expected YA but got TIDAK
+
+
+Name: MuhammadRafli
+Score: 100.0
+Check program: False
+
+Name: AdrianDikaDarmawan
+Score: 60.0
+Check program: False
+Message:
+Test 3: Expected TIDAK but got YA
+Test 4: Expected TIDAK but got YA
+Test 7: Expected TIDAK but got YA
+Test 9: Expected TIDAK but got YA
+
+
+Name: DwiginaSittiZahwa
+Score: 100.0
+Check program: False
+
+Name: FidoWahyuChoirulinsan
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: NeylaShakira
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: PutriKiaraSalsabilaArief
+Score: 60.0
+Check program: False
+Message:
+Test 3: Expected TIDAK but got MASUKKANJUMLAHBARISDANKOLOMMATRIKS:MASUKKANELEMENMATRIKS[6422280][0]:MASUKKANELEMENMATRIKS[6382280][0]:MASUKKANELEMENMATRIKS[6382284][0]:MASUKKANELEMENMATRIKS[6382288][0]:MASUKKANELEMENMATRIKS[6382292][0]:MASUKKANELEMENMATRIKS[6382296][0]:MASUKKANELEMENMATRIKS[6382680][0]:MASUKKANELEMENMATRIKS[6382684][0]:MASUKKANELEMENMATRIKS[6382688][0]:MASUKKANELEMENMATRIKS[6382692][0]:MASUKKANELEMENMATRIKS[6382696][0]:MASUKKANELEMENMATRIKS[6383080][0]:MASUKKANELEMENMATRIKS[6383084][0]:MASUKKANELEMENMATRIKS[6383088][0]:MASUKKANELEMENMATRIKS[6383092][0]:MASUKKANELEMENMATRIKS[6383096][0]:MASUKKANELEMENMATRIKS[6383480][0]:MASUKKANELEMENMATRIKS[6383484][0]:MASUKKANELEMENMATRIKS[6383488][0]:MASUKKANELEMENMATRIKS[6383492][0]:MASUKKANELEMENMATRIKS[6383496][0]:MASUKKANELEMENMATRIKS[6383880][0]:MASUKKANELEMENMATRIKS[6383884][0]:MASUKKANELEMENMATRIKS[6383888][0]:MASUKKANELEMENMATRIKS[6383892][0]:YA
+Test 4: Expected TIDAK but got MASUKKANJUMLAHBARISDANKOLOMMATRIKS:MASUKKANELEMENMATRIKS[6422280][0]:MASUKKANELEMENMATRIKS[6382280][0]:MASUKKANELEMENMATRIKS[6382284][0]:MASUKKANELEMENMATRIKS[6382288][0]:MASUKKANELEMENMATRIKS[6382292][0]:MASUKKANELEMENMATRIKS[6382680][0]:MASUKKANELEMENMATRIKS[6382684][0]:MASUKKANELEMENMATRIKS[6382688][0]:MASUKKANELEMENMATRIKS[6382692][0]:MASUKKANELEMENMATRIKS[6383080][0]:MASUKKANELEMENMATRIKS[6383084][0]:MASUKKANELEMENMATRIKS[6383088][0]:MASUKKANELEMENMATRIKS[6383092][0]:MASUKKANELEMENMATRIKS[6383480][0]:MASUKKANELEMENMATRIKS[6383484][0]:MASUKKANELEMENMATRIKS[6383488][0]:YA
+Test 7: Expected TIDAK but got MASUKKANJUMLAHBARISDANKOLOMMATRIKS:MASUKKANELEMENMATRIKS[6422280][0]:MASUKKANELEMENMATRIKS[6382280][0]:MASUKKANELEMENMATRIKS[6382284][0]:MASUKKANELEMENMATRIKS[6382288][0]:MASUKKANELEMENMATRIKS[6382292][0]:MASUKKANELEMENMATRIKS[6382296][0]:MASUKKANELEMENMATRIKS[6382680][0]:MASUKKANELEMENMATRIKS[6382684][0]:MASUKKANELEMENMATRIKS[6382688][0]:MASUKKANELEMENMATRIKS[6382692][0]:MASUKKANELEMENMATRIKS[6382696][0]:MASUKKANELEMENMATRIKS[6383080][0]:MASUKKANELEMENMATRIKS[6383084][0]:MASUKKANELEMENMATRIKS[6383088][0]:MASUKKANELEMENMATRIKS[6383092][0]:MASUKKANELEMENMATRIKS[6383096][0]:MASUKKANELEMENMATRIKS[6383480][0]:MASUKKANELEMENMATRIKS[6383484][0]:MASUKKANELEMENMATRIKS[6383488][0]:MASUKKANELEMENMATRIKS[6383492][0]:MASUKKANELEMENMATRIKS[6383496][0]:MASUKKANELEMENMATRIKS[6383880][0]:MASUKKANELEMENMATRIKS[6383884][0]:MASUKKANELEMENMATRIKS[6383888][0]:MASUKKANELEMENMATRIKS[6383892][0]:YA
+Test 9: Expected TIDAK but got MASUKKANJUMLAHBARISDANKOLOMMATRIKS:MASUKKANELEMENMATRIKS[6422280][0]:MASUKKANELEMENMATRIKS[6382280][0]:MASUKKANELEMENMATRIKS[6382284][0]:MASUKKANELEMENMATRIKS[6382288][0]:MASUKKANELEMENMATRIKS[6382292][0]:MASUKKANELEMENMATRIKS[6382296][0]:MASUKKANELEMENMATRIKS[6382300][0]:MASUKKANELEMENMATRIKS[6382680][0]:MASUKKANELEMENMATRIKS[6382684][0]:MASUKKANELEMENMATRIKS[6382688][0]:MASUKKANELEMENMATRIKS[6382692][0]:MASUKKANELEMENMATRIKS[6382696][0]:MASUKKANELEMENMATRIKS[6382700][0]:MASUKKANELEMENMATRIKS[6383080][0]:MASUKKANELEMENMATRIKS[6383084][0]:MASUKKANELEMENMATRIKS[6383088][0]:MASUKKANELEMENMATRIKS[6383092][0]:MASUKKANELEMENMATRIKS[6383096][0]:MASUKKANELEMENMATRIKS[6383100][0]:MASUKKANELEMENMATRIKS[6383480][0]:MASUKKANELEMENMATRIKS[6383484][0]:MASUKKANELEMENMATRIKS[6383488][0]:MASUKKANELEMENMATRIKS[6383492][0]:MASUKKANELEMENMATRIKS[6383496][0]:MASUKKANELEMENMATRIKS[6383500][0]:MASUKKANELEMENMATRIKS[6383880][0]:MASUKKANELEMENMATRIKS[6383884][0]:MASUKKANELEMENMATRIKS[6383888][0]:MASUKKANELEMENMATRIKS[6383892][0]:MASUKKANELEMENMATRIKS[6383896][0]:MASUKKANELEMENMATRIKS[6383900][0]:MASUKKANELEMENMATRIKS[6384280][0]:MASUKKANELEMENMATRIKS[6384284][0]:MASUKKANELEMENMATRIKS[6384288][0]:MASUKKANELEMENMATRIKS[6384292][0]:MASUKKANELEMENMATRIKS[6384296][0]:YA
+
+
+Name: RaddiefEzraSatrioAndaru
+Score: 60.0
+Check program: False
+Message:
+Test 3: Expected TIDAK but got YA
+Test 4: Expected TIDAK but got YA
+Test 7: Expected TIDAK but got YA
+Test 9: Expected TIDAK but got YA
+
+
+Name: RafiNaufalAryaputra
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: MuhammadIkhsanKurniawan
+Score: 0
+Check program: False
+Message:
+Compile Error
+
+Name: AhmadFarizKhairi
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: ArsintaKiranaNisa
+Score: 100.0
+Check program: False
+
+Name: BryanHerdianto
+Score: 100.0
+Check program: False
+
+Name: DeandroNajwanAhmadSyahbanna
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: MirzaAdiRaffiansyah
+Score: 100.0
+Check program: False
+
+Name: MuhammadAryaWiandraUtomo
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: RubenKristanto
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: DimasAnandaSutiardi
+Score: 40.0
+Check program: False
+Message:
+Test 1: Expected YA but got TIDAKTIDAKTIDAK
+Test 2: Expected YA but got TIDAKTIDAKTIDAKTIDAK
+Test 5: Expected YA but got TIDAKTIDAK
+Test 6: Expected YA but got TIDAKTIDAKTIDAKTIDAKTIDAK
+Test 8: Expected YA but got TIDAKTIDAKTIDAKTIDAKTIDAKTIDAK
+Test 10: Expected YA but got TIDAKTIDAKTIDAKTIDAKTIDAKTIDAKTIDAK
+
+
+Name: FathanYazidSatriani
+Score: 100.0
+Check program: False
+
+Name: FauzanFarrasHakimBudiHandoyo
+Score: 100.0
+Check program: False
+
+Name: GanendraGardaPratama
+Score: 100.0
+Check program: False
+
+Name: IsyanaTreviaPohaci
+Score: 40.0
+Check program: False
+Message:
+Test 1: Expected YA but got TIDAK
+Test 2: Expected YA but got TIDAK
+Test 5: Expected YA but got TIDAK
+Test 6: Expected YA but got TIDAK
+Test 8: Expected YA but got TIDAK
+Test 10: Expected YA but got TIDAK
+
+
+Name: MuhamadReyKafakaFadlan
+Score: 100.0
+Check program: False
+
+Name: R.AishaSyauqiRamadhani
+Score: 0
+Check program: False
+Message:
+Compile Error
+
+Name: RowenRodotuaHarahap
+Score: 60.0
+Check program: False
+Message:
+Test 3: Expected TIDAK but got YA
+Test 4: Expected TIDAK but got YA
+Test 7: Expected TIDAK but got YA
+Test 9: Expected TIDAK but got YA
+
+
+Name: SamihBassam
+Score: 100.0
+Check program: False
+
+Name: ZhafiraZahraAlfarisy
+Score: 100.0
+Check program: False
+
+Name: 2306209095
+Score: 100.0
+Check program: False
+
+Name: KelvinFerrellTjoe
+Score: 60.0
+Check program: False
+Message:
+Test 3: Expected TIDAK but got YA
+Test 4: Expected TIDAK but got YA
+Test 7: Expected TIDAK but got YA
+Test 9: Expected TIDAK but got YA
+
+
+Name: AdiNugroho
+Score: 100.0
+Check program: False
+
+Name: FilagaTifiraMuthi
+Score: 100.0
+Check program: False
+
+Name: JesieTenardi
+Score: 0
+Check program: False
+Message:
+Compile Error
+
+Name: MuhamadHakimNizami
+Score: 100.0
+Check program: False
+
+Name: MuhammadNadzhifFikri
+Score: 100.0
+Check program: False
+
+Name: MusyaffaImanSupriadi
+Score: 100.0
+Check program: False
+
+Name: MutiaCasella
+Score: 60.0
+Check program: False
+Message:
+Test 3: Expected TIDAK but got YA
+Test 4: Expected TIDAK but got YA
+Test 7: Expected TIDAK but got YA
+Test 9: Expected TIDAK but got YA
+
+
+Name: Salim
+Score: 100.0
+Check program: False
+
+Name: ShafwanHasyim
+Score: 100.0
+Check program: False
+
+Name: WesleyFrederickOh
+Score: 100.0
+Check program: False
+
+Name: AbednegoZebua
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: AndiMuhammadAlvinFarhansyah
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: AxelAdrialPazaKalembang
+Score: 40.0
+Check program: False
+Message:
+Test 1: Expected YA but got TIDAK
+Test 2: Expected YA but got TIDAK
+Test 5: Expected YA but got TIDAK
+Test 6: Expected YA but got TIDAK
+Test 8: Expected YA but got TIDAK
+Test 10: Expected YA but got TIDAK
+
+
+Name: ChristianHadiwijaya
+Score: 100.0
+Check program: False
+
+Name: FadhlurezaSebastian
+Score: 40.0
+Check program: False
+Message:
+Test 1: Expected YA but got TIDAK
+Test 2: Expected YA but got TIDAK
+Test 5: Expected YA but got TIDAK
+Test 6: Expected YA but got TIDAK
+Test 8: Expected YA but got TIDAK
+Test 10: Expected YA but got TIDAK
+
+
+Name: FalahAndhesryo
+Score: 100.0
+Check program: False
+
+Name: GedeRamaPradnya
+Score: 100.0
+Check program: False
+
+Name: JesayaDavid
+Score: 100.0
+Check program: False
+
+Name: JonathanMatiusWeniGerimu
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: MuhammadRaihanMustofa
+Score: 100.0
+Check program: False
+
+Name: VanesaKaylaZahra
+Score: 0
+Check program: False
+Message:
+Compile Error
+
+Name: 2306161920.c
+Score: 0
+Check program: False
+Message:
+Compile Error
+
+Name: AdhiRajasaRafif
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: AudyNatalieCR
+Score: 100.0
+Check program: False
+
+Name: DaffaBagusDhiananto
+Score: 100.0
+Check program: False
+
+Name: EkanandaZhafifDean
+Score: 60.0
+Check program: False
+Message:
+Test 3: Expected TIDAK but got YA
+Test 4: Expected TIDAK but got YA
+Test 7: Expected TIDAK but got YA
+Test 9: Expected TIDAK but got YA
+
+
+Name: IzzanNawaSyarif
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: LauraFawziaSambowo
+Score: 60.0
+Check program: False
+Message:
+Test 3: Expected TIDAK but got YA
+Test 4: Expected TIDAK but got YA
+Test 7: Expected TIDAK but got YA
+Test 9: Expected TIDAK but got YA
+
+
+Name: WiellonaDarleneOderiaSaragih
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: JohanBaptistaAdhikaWardana
+Score: 0
+Check program: False
+Message:
+Compile Error
+
+Name: JonathanFrederickKosasih
+Score: 70.0
+Check program: False
+Message:
+Test 4: Expected TIDAK but got YA
+Test 7: Expected TIDAK but got YA
+Test 9: Expected TIDAK but got YA
+
+
+Name: KharismaAprilia
+Score: 100.0
+Check program: False
+
+Name: MatthewImmanuel
+Score: 100.0
+Check program: False
+
+Name: MaxwellZefanyaGinting
+Score: 100.0
+Check program: False
+
+Name: MuhammadRiyanSatrioWibowo
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: NugrohoUlilAbshar
+Score: 100.0
+Check program: False
+
+Name: SyahmiHamdani
+Score: 70.0
+Check program: False
+Message:
+Test 4: Expected TIDAK but got YA
+Test 7: Expected TIDAK but got YA
+Test 9: Expected TIDAK but got YA
+
+
+Name: M.IQBALALFAJRI
+Score: 0
+Check program: False
+Message:
+Compile Error
+
+Name: GraceYunikeMargarethaSitorus
+Score: 40.0
+Check program: False
+Message:
+Test 1: Expected YA but got TIDAK
+Test 2: Expected YA but got TIDAK
+Test 5: Expected YA but got TIDAK
+Test 6: Expected YA but got TIDAK
+Test 8: Expected YA but got TIDAK
+Test 10: Expected YA but got TIDAK
+
+
+Name: PhiloPradiptaAdhiSatriya
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: BonifasiusRadityaPanduHendrianto
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: MuhammadBryanFarras
+Score: 100.0
+Check program: False
+
+Name: GerrardinNabilZulhian
+Score: 70.0
+Check program: False
+Message:
+Test 4: Expected TIDAK but got YA
+Test 7: Expected TIDAK but got YA
+Test 9: Expected TIDAK but got YA
+
+
+Name: 2306267145
+Score: 90.0
+Check program: False
+Message:
+Test 9: Expected TIDAK but got YA
+
+
+Name: MuhammadRadityaAlifNugroho
+Score: 60.0
+Check program: False
+Message:
+Test 3: Expected TIDAK but got YA
+Test 4: Expected TIDAK but got YA
+Test 7: Expected TIDAK but got YA
+Test 9: Expected TIDAK but got YA
+
+
+Name: 2306220412
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: MuhamadDzakyMaulana
+Score: 70.0
+Check program: False
+Message:
+Test 4: Expected TIDAK but got YA
+Test 7: Expected TIDAK but got YA
+Test 9: Expected TIDAK but got YA
+
+
+Name: MuhammadRifatFaqih
+Score: 0
+Check program: False
+Message:
+Compile Error
+
+Name: 2306267082.c
+Score: 0
+Check program: False
+Message:
+Compile Error
+
+Name: WilmanSaragihSitio
+Score: 100.0
+Check program: False
+
+Name: AdhikanandaWiraJanuar
+Score: 90.0
+Check program: False
+Message:
+Test 9: Expected TIDAK but got YA
+
+
+Name: AlfonsusTanara
+Score: 100.0
+Check program: False
+
+Name: AndhikaFadhlanWijanarko
+Score: 0
+Check program: False
+Message:
+Compile Error
+
+Name: DaffaSayraFirdaus
+Score: 100.0
+Check program: False
+
+Name: JeremyWijanarkoMulyono
+Score: 100.0
+Check program: False
+
+Name: MAvicennaRaffaizAdiharsa
+Score: 100.0
+Check program: False
+
+Name: code\CS1\CS1_RyanAdidaruExcelBarnabi
+Score: 100.0
+Check program: False
+
+Name: AisyaRiveliaAzzahra
+Score: 60.0
+Check program: False
+Message:
+Test 3: Expected TIDAK but got YA
+Test 4: Expected TIDAK but got YA
+Test 7: Expected TIDAK but got YA
+Test 9: Expected TIDAK but got YA
+
+
+Name: Alicia
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: AliyaRizqiningrumSalamun
+Score: 60.0
+Check program: False
+Message:
+Test 3: Expected TIDAK but got YA
+Test 4: Expected TIDAK but got YA
+Test 7: Expected TIDAK but got YA
+Test 9: Expected TIDAK but got YA
+
+
+Name: AnthoniusHendhyWirawan
+Score: 90.0
+Check program: False
+Message:
+Test 9: Expected TIDAK but got YA
+
+
+Name: AzraNabilaAzzahra
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: DaffaHardhan
+Score: 100.0
+Check program: False
+
+Name: IbnuZakyFauzi
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected YA but got 
+Test 2: Expected YA but got 
+Test 3: Expected TIDAK but got 
+Test 4: Expected TIDAK but got 
+Test 5: Expected YA but got 
+Test 6: Expected YA but got 
+Test 7: Expected TIDAK but got 
+Test 8: Expected YA but got 
+Test 9: Expected TIDAK but got 
+Test 10: Expected YA but got 
+
+
+Name: JavanaMuhammadDzaki
+Score: 100.0
+Check program: False
+
+Name: NelsonLaurensius
+Score: 100.0
+Check program: False
+
+Name: RAKAARRAYAN
+Score: 100.0
+Check program: False
+
+Name: SitiAmaliaNurfaidah
+Score: 100.0
+Check program: False
+
