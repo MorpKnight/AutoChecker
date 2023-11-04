@@ -1,4 +1,17 @@
 # Instruksi
+### Normal Usage
+Untuk menjalankan program ini, pada `main.py` sudah disediakan contoh penggunaan. Untuk menjalankan program, cukup jalankan `main.py` dengan python3.6 atau lebih tinggi.
+
+```python
+from UnitTest import UnitTest
+
+# Membuat objek UnitTest
+# Parameter 1: Nama folder yang akan dijadikan sebagai test-case
+# Parameter 2: Nama file yang akan dijadikan sebagai program yang akan diujiS
+```
+```bash
+
+### Input dan Output
 Untuk bagian pengisian input dan output harap mengikuti ketentuan dibawah ini supaya file dapat dijalankan dengan baik.
 ```python
 # Input
@@ -15,3 +28,15 @@ outputTest = ["15", "40"]
 outputTest = ["Contohoutput1", "Contohoutput2"]
 ```
 Program dapat dikostumisasi dengan membuat single file checker atau folder-based
+
+# Things to add
+- [x] Unit Test
+- [x] Single File Checker
+- [x] Folder-based Checker
+- [ ] GUI
+- [ ] Documentation
+- [ ] Checking using regex
+- [ ] Checking using tolerance
+- [ ] Auto degrade, ketika salah kode aslab
+- [ ] Auto 0, ketika terindikasi plagiarisme
+- [ ] Scrapping website untuk cek plagiarisme
