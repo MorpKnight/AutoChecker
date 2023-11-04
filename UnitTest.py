@@ -118,7 +118,8 @@ class UnitTest:
         for expected_line, actual_line in zip(expected_lines, actual_lines):
             try:
                 count += 1
-                if re.search(expected_line, actual_line):
+                pat = re.compile(expected_line)
+                if pat.findall(actual_line):
                     matching_lines += 1
                 else:
                     message += f"Test {count}: Expected {expected_line} but got {actual_line}\n"
@@ -233,20 +234,23 @@ class UnitTest:
                     student_name = self.filename.split("_")[3]
                 except:
                     student_name = self.filename
+
                 if not boolCheck:
                     self.student.append(Student(student_name, 0, "Compile Error", self.kode_aslab, False))
                     continue
                 self.test()
+
                 if self.regex:
                     perc, msg = self.compare_output_regex()
                 else:
                     perc, msg = self.compare_output()
+                
                 perc = round(perc, 2)
+                
                 try:
                     self.student.append(Student(student_name, perc, msg, self.kode_aslab, self.checkProgram()))
                 except:
                     self.student.append(Student(student_name, perc, msg, self.kode_aslab, False))
-                # print(f"\r{self.filename} {self.checkProgram()}", end="")
                 sleep(1)
                 self.actual_output_list = []
                 os.system("cls")

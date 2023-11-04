@@ -7,9 +7,21 @@ from UnitTest import UnitTest
 
 # Membuat objek UnitTest
 # Parameter 1: Nama folder yang akan dijadikan sebagai test-case
-# Parameter 2: Nama file yang akan dijadikan sebagai program yang akan diujiS
+inputTest = []
+outputTest = []
+
+# Runs a unit test using the `UnitTest` class with specified input and output tests.
+# 
+# Parameters:
+# - `folderName`: the name of the folder containing the test files
+# - `input_test`: the input test file name
+# - `output_test`: the output test file name
+#
+# Returns:
+# - Check generated result.txt and result.csv
+checker = UnitTest("folderName", input_test=inputTest, output_test=outputTest)
+checker.run()
 ```
-```bash
 
 ### Input dan Output
 Untuk bagian pengisian input dan output harap mengikuti ketentuan dibawah ini supaya file dapat dijalankan dengan baik.

@@ -1,10 +1,12 @@
 import re
 
-output = ["YA", "YA", "TIDAK"]
+output = ["YA", "YA", "TIDAK", "ya", "iYa", "tidakbisaya"]
 inputtest = ["IYA", "YA", "TIDAK"]
 
-for i in range(max(len(output), len(inputtest))):
-    if re.match(output[i], inputtest[i]):
-        print("True")
+pattern = re.compile("(?i)YA")
+
+for i in range(len(output)):
+    if pattern.findall(output[i]):
+        print("YA")
     else:
-        print("False")
+        print("TIDAK")
