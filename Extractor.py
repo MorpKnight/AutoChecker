@@ -97,7 +97,7 @@ class Extractor:
 
     def check_plagiarism(self):
         moss = mosspy.Moss(self.userid_moss, "C")
-        mossDir = ["SESI1", "SESI2"]
+        mossDir = ["CS1", "CS2"]
         for mossPath in mossDir:
             moss.addFilesByWildcard(os.path.join(self.path, mossPath, "*.c"))
             url = moss.send()

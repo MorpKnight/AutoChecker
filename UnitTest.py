@@ -1,6 +1,9 @@
-import os, subprocess, threading
+import os, subprocess, threading, mosspy
+from bs4 import BeautifulSoup
 from time import sleep
 import re
+
+import requests
 
 class Student:
     def __init__(self, name, score, message, kode_aslab, regex_output):
@@ -47,6 +50,7 @@ class UnitTest:
         self.actual_output = None
         self.actual_output_list = []
         self.student:Student = []
+        self.mossURL = None
 
     def compileC(self):
         """
@@ -236,6 +240,45 @@ class UnitTest:
     
     def check_kode_aslab(self):
         pass
+    
+    def check_plagiarism(self):
+        moss = mosspy.Moss(220418487, "C")
+        mossDir = self.folder_name
+        moss.addFilesByWildcard(os.path.join(mossDir, "*.c"))
+        url = moss.send()
+        self.mossURL = url
+        print("Report Url: " + url)
+
+    def hydrate_plagiat(self):
+        response = requests.get(self.mossURL)
+
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            table = soup.find('table')
+            high_plagiarism_names = []
+
+            for row in table.find_all('tr')[1:]:
+                cells = row.find_all('td')
+                cell1 = cells[0].find('a')
+                cell2 = cells[1].find('a')
+                list_name_cell1 = cell1.text.split('/')
+                list_name_cell2 = cell2.text.split('/')
+
+                for name1, name2 in zip(list_name_cell1, list_name_cell2):
+                    plagiarisme_checker1 = int(name1[-4:-2])
+                    plagiarisme_checker2 = int(name2[-4:-2])
+                    if plagiarisme_checker1 > 85 and plagiarisme_checker2 > 85:
+                        high_plagiarism_names.append(name1.split("_"[3]))
+                        high_plagiarism_names.append(name2.split("_"[3]))
+
+            for i in self.student:
+                if i.name in high_plagiarism_names:
+                    i.score = 0
+                    i.message = "Plagiarism detected"
+
+        else:
+            print("Failed to retrieve the HTML content")
+            
 
     def run(self):
         """
@@ -278,6 +321,8 @@ class UnitTest:
                 sleep(1)
                 self.actual_output_list = []
                 os.system("cls")
+
+        self.check_plagiarism()
         self.result_csv()
         self.result_txt()
         print("\nDone")
