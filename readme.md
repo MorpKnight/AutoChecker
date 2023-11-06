@@ -50,5 +50,5 @@ Program dapat dikostumisasi dengan membuat single file checker atau folder-based
 - [ ] Checking using regex (on process)
 - [ ] Checking using tolerance
 - [ ] Auto degrade, ketika salah kode aslab
-- [ ] Auto 0, ketika terindikasi plagiarisme
-- [ ] Scrapping website untuk cek plagiarisme (on process)
+- [x] Auto 0, ketika terindikasi plagiarisme
+- [x] Scrapping website untuk cek plagiarisme
