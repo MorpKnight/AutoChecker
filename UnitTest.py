@@ -1,4 +1,4 @@
-import os, subprocess
+import os, subprocess, threading
 from time import sleep
 import re
 
@@ -55,10 +55,23 @@ class UnitTest:
         :return: a boolean value. It returns True if the compilation is successful and False if there is
         a compile error.
         """
+        
+        if os.path.exists(self.filename.replace(".c", ".exe")):
+            self.filename = self.filename.replace(".c", "")
+            return True
+        
         os.rename(self.filename, self.filename.replace(" ", ""))
         sleep(1)
-
-        compile_cmd = f"gcc -w {self.filename} -o {self.filename.replace('.c', '')}"
+        compile_cmd = f"gcc {self.filename.replace(' ', '')} -o {self.filename.replace(' ', '').replace('.c', '')}"
+        # compileSuccess = False
+        # while(not compileSuccess):
+        #     try:
+        #         os.system(compile_cmd)
+        #         compileSuccess = True
+        #     except:
+        #         os.rename(self.filename.replace(" ", ""), self.filename)
+        #         print("\nCompile Error")
+        #         return False
         try:
             os.system(compile_cmd)
         except:
@@ -83,7 +96,11 @@ class UnitTest:
         `stderr.decode("utf-8")`.
         """
         process = subprocess.Popen(self.filename, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        stdout, stderr = process.communicate(input=input_test.encode("utf-8"))
+        try:
+            stdout, stderr = process.communicate(input=input_test.encode("utf-8"), timeout=10)
+        except subprocess.TimeoutExpired:
+            process.kill()
+            return "Timeout", "Timeout"
         self.actual_output = stdout.decode("utf-8")
         return stdout.decode("utf-8"), stderr.decode("utf-8")
     
@@ -127,6 +144,9 @@ class UnitTest:
                 print(f"Error while checking {self.filename}\n")
 
         percentage = matching_lines / total_lines * 100
+
+        if percentage == 0:
+            message += "Need to re-check the program\n"
         return percentage, message
 
     def compare_output(self):
@@ -163,6 +183,9 @@ class UnitTest:
                 print(f"Error while checking {self.filename}\n")
 
         percentage = matching_lines / total_lines * 100
+
+        if percentage == 0:
+            message += "Need to re-check the program\n"
         return percentage, message
     
     def get_student(self):
@@ -227,7 +250,7 @@ class UnitTest:
         for file in os.listdir(self.folder_name):
             if file.endswith(".c"):
                 count_rn += 1
-                print(f"\rTesting {count_rn}/{count} files", end="")
+                print(f"\rTesting {count_rn}/{count} files - {self.filename}", end="")
                 self.filename = os.path.join(self.folder_name, file)
                 boolCheck = self.compileC()
                 try:
@@ -236,9 +259,10 @@ class UnitTest:
                     student_name = self.filename
 
                 if not boolCheck:
-                    self.student.append(Student(student_name, 0, "Compile Error", self.kode_aslab, False))
+                    self.student.append(Student(student_name, 0, "Compile Error\n", self.kode_aslab, False))
                     continue
                 self.test()
+                print(f"Done testing {self.filename}")
 
                 if self.regex:
                     perc, msg = self.compare_output_regex()

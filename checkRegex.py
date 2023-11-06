@@ -1,12 +1,10 @@
 import re
 
-output = ["YA", "YA", "TIDAK", "ya", "iYa", "tidakbisaya"]
-inputtest = ["IYA", "YA", "TIDAK"]
 
-pattern = re.compile("(?i)YA")
-
-for i in range(len(output)):
-    if pattern.findall(output[i]):
-        print("YA")
+pattern = re.compile(r"29")
+ouputTest = ["29", "8", "8", "866", "32", "16", "750797", "256", "32"]
+for i in ouputTest:
+    if re.match(pattern, i):
+        print("Matched")
     else:
-        print("TIDAK")
+        print("Not matched")
