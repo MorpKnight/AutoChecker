@@ -258,11 +258,10 @@ Need to re-check the program
 
 
 Name: AhmadFarizKhairi
-Score: 77.78
+Score: 88.89
 Check program: False
 Message:
-Test 6: Expected 16 but got 1247815052
-Test 9: Expected 32 but got -1300470164
+Test 6: Expected 16 but got 1340220812
 
 
 Name: ArsintaKiranaNisa
@@ -270,8 +269,10 @@ Score: 100.0
 Check program: False
 
 Name: BryanHerdianto
-Score: 100.0
+Score: 0
 Check program: False
+Message:
+Plagiarism detected
 
 Name: DeandroNajwanAhmadSyahbanna
 Score: 100.0
@@ -434,11 +435,20 @@ Name: BonifasiusRadityaPanduHendrianto
 Score: 100.0
 Check program: False
 
-Name: Gerrardin Nabil Zulhian
-Score: 0
+Name: GerrardinNabilZulhian
+Score: 0.0
 Check program: False
 Message:
-Compile Error
+Test 1: Expected 29 but got 
+Test 2: Expected 8 but got 
+Test 3: Expected 8 but got 
+Test 4: Expected 866 but got 
+Test 5: Expected 32 but got 
+Test 6: Expected 16 but got 
+Test 7: Expected 750797 but got 
+Test 8: Expected 256 but got 
+Test 9: Expected 32 but got 
+Need to re-check the program
 
 
 Name: NabielHaritsUtomo
@@ -465,11 +475,12 @@ Test 8: Expected 256 but got 1
 Test 9: Expected 32 but got 33
 
 
-Name: Muhammad Pavel
-Score: 0
+Name: MuhammadPavel
+Score: 77.78
 Check program: False
 Message:
-Compile Error
+Test 5: Expected 32 but got 13
+Test 8: Expected 256 but got 21
 
 
 Name: NaufalHadiRasikhin
@@ -505,8 +516,10 @@ Score: 100.0
 Check program: False
 
 Name: GEDERAMAPRADNYA
-Score: 100.0
+Score: 0
 Check program: False
+Message:
+Plagiarism detected
 
 Name: JESAYADAVID
 Score: 100.0
@@ -516,8 +529,8 @@ Name: JonathanMatiusWeniGerimu
 Score: 77.78
 Check program: False
 Message:
-Test 6: Expected 16 but got 1378400636
-Test 9: Expected 32 but got -1603670088
+Test 3: Expected 8 but got -316963554
+Test 9: Expected 32 but got -239997000
 
 
 Name: MuhammadRaihanMustofa
