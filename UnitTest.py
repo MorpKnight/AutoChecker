@@ -268,11 +268,12 @@ class UnitTest:
                     try:
                         plagiarisme_checker1 = int(name1[-4:-2])
                         plagiarisme_checker2 = int(name2[-4:-2])
-                        if plagiarisme_checker1 > 85 and plagiarisme_checker2 > 85:
-                            high_plagiarism_names.append(name1.split("_")[3])
-                            high_plagiarism_names.append(name2.split("_")[3])
                     except:
-                        pass
+                        continue
+
+                    if plagiarisme_checker1 >= 85 and plagiarisme_checker2 >= 85:
+                        high_plagiarism_names.append(name1.split("_")[3])
+                        high_plagiarism_names.append(name2.split("_")[3])
             for i in self.student:
                 if i.name in high_plagiarism_names:
                     i.score = 0

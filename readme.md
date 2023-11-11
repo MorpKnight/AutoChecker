@@ -45,10 +45,11 @@ Program dapat dikostumisasi dengan membuat single file checker atau folder-based
 - [x] Unit Test
 - [x] Single File Checker
 - [x] Folder-based Checker
-- [ ] GUI
-- [ ] Documentation
 - [x] Checking using regex
-- [ ] Checking using tolerance
-- [ ] Auto degrade, ketika salah kode aslab
+- [x] Auto degrade, ketika salah kode aslab
 - [x] Auto 0, ketika terindikasi plagiarisme
 - [x] Scrapping website untuk cek plagiarisme
+- [ ] GUI
+- [ ] Documentation
+- [ ] Checking using tolerance
+- [ ] Fix bug occurs when check plagiaisme about naming that doesn't match to plagiaism check
