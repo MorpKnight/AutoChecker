@@ -1,118 +1,326 @@
-Name: 23062671332
-Score: 100.0
+Name: AlexanderChristhian
+Score: 50.0
 Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: AMMARFATTAN
+Score: 0
+Check program: False
+Message:
+Plagiarism detected
+
+Name: GraceYunikeMargarethaSitorus
+Score: 40.0
+Check program: False
+Message:
+Test 1: Expected (?i)ya but got TIDAK
+Test 2: Expected (?i)ya but got TIDAK
+Test 5: Expected (?i)ya but got TIDAK
+Test 6: Expected (?i)ya but got TIDAK
+Test 8: Expected (?i)ya but got TIDAK
+
+
+Name: MuhammadHilmiAlMuttaqi
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got MASUKKANJUMLAHBARIS/KOLOMMATRIKS:TIDAK
+Test 7: Expected (?i)tidak but got MASUKKANJUMLAHBARIS/KOLOMMATRIKS:YA
+Test 8: Expected (?i)ya but got MASUKKANJUMLAHBARIS/KOLOMMATRIKS:TIDAK
+Test 9: Expected (?i)tidak but got MASUKKANJUMLAHBARIS/KOLOMMATRIKS:YA
+
+
+Name: MuhammadHilmyMahardika
+Score: 70.0
+Check program: False
+Message:
+Test 7: Expected (?i)tidak but got IYA
+Test 9: Expected (?i)tidak but got IYA
+
+
+Name: NabielHaritsUtomo
+Score: 70.0
+Check program: False
+Message:
+Test 7: Expected (?i)tidak but got YA
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: TeufikAliHadzalic
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: 2306266994
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: AzkaNabihan
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: Muhammad Pavel
+Score: 0
+Check program: False
+Message:
+Compile Error
+
+
+Name: MuhammadIrfanFakhrianto
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected (?i)ya but got 
+Test 2: Expected (?i)ya but got 
+Test 3: Expected (?i)tidak but got 
+Test 4: Expected (?i)tidak but got 
+Test 5: Expected (?i)ya but got 
+Test 6: Expected (?i)ya but got 
+Test 7: Expected (?i)tidak but got 
+Test 8: Expected (?i)ya but got 
+Test 9: Expected (?i)tidak but got 
+Need to re-check the program
+
 
 Name: NaufalHadiRasikhin
-Score: 0.0
+Score: 50.0
 Check program: False
 Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got 
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got 
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got 
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got 
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got 
-Test 6: Expected (?i)ada.*ada.*ada.*ada but got 
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got 
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got 
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got 
-Need to re-check the program
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
 
 
-Name: AdhikanandaWiraJanuar
-Score: 88.89
+Name: RiviYashaHafizhan
+Score: 50.0
 Check program: False
 Message:
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIDAKTIDAKTIDAKTIDAK
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got IYA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got IYA
 
 
-Name: AlfonsusTanara
-Score: 0.0
+Name: StevieNathaniaSiregar
+Score: 50.0
 Check program: False
 Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got TIDAKTIDAKTIDAK
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got TIDAKADAADA
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got ADAADAADA
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got ADAADAADA
-Test 6: Expected (?i)ada.*ada.*ada.*ada but got ADAADAADA
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIDAKADATIDAK
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got TIDAKTIDAKTIDAK
-Need to re-check the program
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
 
 
-Name: AndhikaFadhlanWijanarko
-Score: 22.22
+Name: DwiginaSittiZahwa
+Score: 50.0
 Check program: False
 Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got TIMEOUT
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got TIMEOUT
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIMEOUT
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got TIMEOUT
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
 
 
-Name: DaffaSayraFirdaus
-Score: 100.0
-Check program: False
-
-Name: DhafinHamizanSetiawan
-Score: 100.0
-Check program: False
-
-Name: MAvicennaRaffaizAdiharsa
-Score: 44.44
+Name: MuhammadRafli
+Score: 0
 Check program: False
 Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got 8:ADADIDERETFIBONACCIASLIADAADAADA
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got 5:ADADIDERETFIBONACCIASLIADAADAADA
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got 32:TIDAKADADIDERETFIBONACCIASLITIDAKTIDAKTIDAK
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got 16:TIDAKADADIDERETFIBONACCIASLITIDAKTIDAKTIDAK
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got 256:TIDAKADADIDERETFIBONACCIASLITIDAKTIDAKTIDAK
+Plagiarism detected
 
-
-Name: ReyhanAhnafDeannova
-Score: 100.0
+Name: NeylaShakira
+Score: 0
 Check program: False
+Message:
+Plagiarism detected
+
+Name: PutriKiaraSalsabilaArief
+Score: 0
+Check program: False
+Message:
+Plagiarism detected
+
+Name: RaddiefEzraSatrioAndaru
+Score: 50.0
+Check program: False
+Message:
+Test 3: Expected (?i)tidak but got YA
+Test 4: Expected (?i)tidak but got YA
+Test 7: Expected (?i)tidak but got YA
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: Rafi Naufal Aryaputra
+Score: 0
+Check program: False
+Message:
+Compile Error
+
+
+Name: AhmadFarizKhairi
+Score: 0
+Check program: False
+Message:
+Compile Error
+
+
+Name: AhmadFarizKhairi
+Score: 40.0
+Check program: False
+Message:
+Test 3: Expected (?i)tidak but got MASUKKANJUMLAHKOTAKYANGDIINGINKAN,BAIKHORIZONTALMAUPUNVERTIKAL!MASUKKANANGKA-ANGKAUNTUKMENDAPATKANHASIL!YA
+Test 4: Expected (?i)tidak but got MASUKKANJUMLAHKOTAKYANGDIINGINKAN,BAIKHORIZONTALMAUPUNVERTIKAL!MASUKKANANGKA-ANGKAUNTUKMENDAPATKANHASIL!YA
+Test 7: Expected (?i)tidak but got 
+Test 8: Expected (?i)ya but got 
+Test 9: Expected (?i)tidak but got 
+
+
+Name: ArsintaKiranaNisa
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: DeandroNajwanAhmadSyahbanna
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: MirzaAdiRaffiansyah
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: MuhammadAryaWiandraUtomo
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: MuhammadIkhsanKurniawan
+Score: 60.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: NugrohoUlilAbshar
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: RubenKristanto
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: DimasAnandaSutiardi
+Score: 40.0
+Check program: False
+Message:
+Test 1: Expected (?i)ya but got TIDAKTIDAKTIDAK
+Test 2: Expected (?i)ya but got TIDAKTIDAKTIDAKTIDAK
+Test 5: Expected (?i)ya but got TIDAKTIDAK
+Test 6: Expected (?i)ya but got TIDAKTIDAKTIDAKTIDAKTIDAK
+Test 8: Expected (?i)ya but got TIDAKTIDAKTIDAKTIDAKTIDAKTIDAK
+
 
 Name: FathanYazidSatriani
-Score: 100.0
+Score: 50.0
 Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got IYA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got IYA
+
 
 Name: FauzanFarrasHakimBudiHandoyo
-Score: 55.56
+Score: 50.0
 Check program: False
 Message:
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got ADAADATIDAK
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIDAKTIDAKTIDAKADA
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got 
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIDAKTIDAKTIDAKADA
+Test 6: Expected (?i)ya but got MASUKKANJUMLAHMATRIX:TIDAK
+Test 7: Expected (?i)tidak but got MASUKKANJUMLAHMATRIX:YA
+Test 8: Expected (?i)ya but got MASUKKANJUMLAHMATRIX:TIDAK
+Test 9: Expected (?i)tidak but got MASUKKANJUMLAHMATRIX:YA
 
-
-Name: GanendraGardaPratama
-Score: 100.0
-Check program: False
 
 Name: IsyanaTreviaPohaci
-Score: 44.44
+Score: 0.0
 Check program: False
 Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got TIDAKTIDAKTIDAKTIDAK
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got ADAADAADAADA
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIDAKTIDAKTIDAKTIDAK
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIDAKTIDAKTIDAKTIDAK
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
+Test 1: Expected (?i)ya but got 
+Test 2: Expected (?i)ya but got 
+Test 3: Expected (?i)tidak but got 
+Test 4: Expected (?i)tidak but got 
+Test 5: Expected (?i)ya but got 
+Test 6: Expected (?i)ya but got 
+Test 7: Expected (?i)tidak but got 
+Test 8: Expected (?i)ya but got 
+Test 9: Expected (?i)tidak but got 
+Need to re-check the program
 
 
 Name: MuhamadReyKafakaFadlan
-Score: 66.67
+Score: 50.0
 Check program: False
 Message:
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got TIDAKTIDAKADATIDAK
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got TIDAKTIDAKTIDAKADA
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
 
 
 Name: R.AishaSyauqiRamadhani
@@ -123,631 +331,575 @@ Compile Error
 
 
 Name: SamihBassam
-Score: 88.89
+Score: 50.0
 Check program: False
 Message:
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got 
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
 
 
 Name: ZhafiraZahraAlfarisy
-Score: 100.0
-Check program: False
-
-Name: PROGDAS6
-Score: 77.78
+Score: 50.0
 Check program: False
 Message:
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got MASUKKANANGKA:ADAADAADATIDAK
-Test 6: Expected (?i)ada.*ada.*ada.*ada but got MASUKKANANGKA:ADAADATIDAKTIDAK
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
 
-
-Name: AdhiRajasaRafif
-Score: 55.56
-Check program: False
-Message:
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIDAKTIDAKADATIDAK
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIDAKTIDAKADAADA
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIDAKTIDAKTIDAKTIDAK
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIDAKTIDAKADATIDAK
-
-
-Name: AudyNatalieCeciliaRumahorbo
-Score: 100.0
-Check program: False
-
-Name: DaffaBagusDhiananto
-Score: 88.89
-Check program: False
-Message:
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got 
-
-
-Name: EkanandaZhafifDean
-Score: 66.67
-Check program: False
-Message:
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got TIDAKTIDAKADATIDAK
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got TIDAKTIDAKTIDAKADA
-
-
-Name: IzzanNawaSyarif
-Score: 66.67
-Check program: False
-Message:
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got TIDAKTIDAKADATIDAK
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-
-
-Name: LauraFawziaSambowo
-Score: 100.0
-Check program: False
-
-Name: MuhamadDzakyMaulana
-Score: 44.44
-Check program: False
-Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got ADAADATIDAKADA
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got TIDAKTIDAKADAADA
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got ADAADATIDAKTIDAK
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got ADATIDAKTIDAKTIDAK
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got ADAADATIDAKTIDAK
-
-
-Name: BonifasiusRadityaPanduHendrianto
-Score: 88.89
-Check program: False
-Message:
-Test 6: Expected (?i)ada.*ada.*ada.*ada but got ADAADAADATIDAK
-
-
-Name: FarhanRamadhaniZakiyyandi
-Score: 22.22
-Check program: False
-Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got TIMEOUT
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got TIMEOUT
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIMEOUT
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got TIMEOUT
-
-
-Name: JonathanFrederickKosasih
-Score: 0.0
-Check program: False
-Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got TIMEOUT
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got TIMEOUT
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 6: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIMEOUT
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got TIMEOUT
-Need to re-check the program
-
-
-Name: KharismaAprilia
-Score: 100.0
-Check program: False
-
-Name: MaharakaFadhilah
-Score: 0.0
-Check program: False
-Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got TIMEOUT
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got TIMEOUT
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 6: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIMEOUT
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got TIMEOUT
-Need to re-check the program
-
-
-Name: MatthewImmanuel
-Score: 88.89
-Check program: False
-Message:
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-
-
-Name: MaxwellZefanyaGinting
-Score: 77.78
-Check program: False
-Message:
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-
-
-Name: MuhammadRiyanSatrioWibowo
-Score: 100.0
-Check program: False
-
-Name: NugrohoUlilAbshar
-Score: 66.67
-Check program: False
-Message:
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIDAKTIDAKADATIDAK
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIDAKTIDAKTIDAKTIDAK
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-
-
-Name: SyahmiHamdani
-Score: 100.0
-Check program: False
-
-Name: RubenKristanto
-Score: 0.0
-Check program: False
-Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got 
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got 
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got 
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got 
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got 
-Test 6: Expected (?i)ada.*ada.*ada.*ada but got 
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got 
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got 
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got 
-Need to re-check the program
-
-
-Name: DwiginaSittiZahwa
-Score: 100.0
-Check program: False
-
-Name: FidoWahyuChoirulinsan
-Score: 33.33
-Check program: False
-Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got TIMEOUT
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got TIMEOUT
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIMEOUT
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got TIMEOUT
-
-
-Name: MuhammadRafli
-Score: 22.22
-Check program: False
-Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got ADAADAADAADA
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got ADAADAADAADA
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIDAKTIDAKTIDAKTIDAK
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got ADAADATIDAKADA
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got ADAADAADAADA
-
-
-Name: NeylaShakira
-Score: 100.0
-Check program: False
-
-Name: PutriKiaraSalsabilaArief
-Score: 44.44
-Check program: False
-Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got ==============================================================================TOLONGMASUKKANANGKAYANGAKANDICEKAPAKAHTERDAPATPADADERETATAUTIDAK:==============================================================================ADATIDAKTIDAKTIDAK
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got ==============================================================================TOLONGMASUKKANANGKAYANGAKANDICEKAPAKAHTERDAPATPADADERETATAUTIDAK:==============================================================================TIDAKTIDAKTIDAKADA
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got ==============================================================================TOLONGMASUKKANANGKAYANGAKANDICEKAPAKAHTERDAPATPADADERETATAUTIDAK:==============================================================================TIDAKTIDAKTIDAKTIDAK
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got ==============================================================================TOLONGMASUKKANANGKAYANGAKANDICEKAPAKAHTERDAPATPADADERETATAUTIDAK:==============================================================================TIDAKTIDAKTIDAKTIDAK
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-
-
-Name: RaddiefEzraSatrioAndaru
-Score: 22.22
-Check program: False
-Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got ADATIDAK
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got ADAADATIDAK
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIDAK
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIDAK
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIDAK
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIDAK
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got TIDAK
-
-
-Name: RafiNaufalAryaputra
-Score: 77.78
-Check program: False
-Message:
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got MASUKKANANGKA:BARIS1:TIDAKBARIS2:TIDAKBARIS3:ADABARIS4:TIDAK
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-
-
-Name: AhmadFarizKhari
-Score: 88.89
-Check program: False
-Message:
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got 
-
-
-Name: ArsintaKiranaNisa
-Score: 100.0
-Check program: False
-
-Name: BryanHerdianto
-Score: 100.0
-Check program: False
-
-Name: DeandroNajwanAhmadSyahbanna
-Score: 88.89
-Check program: False
-Message:
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIDAKTIDAKTIDAKTIDAK
-
-
-Name: MirzaAdiraffiansyah
-Score: 88.89
-Check program: False
-Message:
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-
-
-Name: MuhammadAryaWiandraUtomo
-Score: 88.89
-Check program: False
-Message:
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got 
-
-
-Name: MuhammadIkhsanKurniawan
-Score: 88.89
-Check program: False
-Message:
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIDAKADAADAADA
-
-
-Name: MuhammadRadityaAlifNugroho
-Score: 100.0
-Check program: False
-
-Name: JesieTenardi
-Score: 100.0
-Check program: False
-
-Name: AdiNugroho
-Score: 100.0
-Check program: False
 
 Name: BenedictAurelius
-Score: 0.0
+Score: 50.0
 Check program: False
 Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got TIMEOUT
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got TIMEOUT
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 6: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIMEOUT
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got TIMEOUT
-Need to re-check the program
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
 
 
 Name: FilagaTifiraMuthi
-Score: 100.0
-Check program: False
-
-Name: JavanaMuhammadDzaki
-Score: 55.56
+Score: 50.0
 Check program: False
 Message:
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIDAKTIDAKADATIDAK
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIDAKTIDAKTIDAKTIDAK
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIDAKTIDAKTIDAKTIDAK
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
 
 
-Name: MuhamadHakimNizami
-Score: 77.78
+Name: JesieTenardi
+Score: 50.0
 Check program: False
 Message:
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
 
 
 Name: MuhammadNadzhifFikri
-Score: 88.89
+Score: 50.0
 Check program: False
 Message:
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIDAKTIDAKTIDAKTIDAK
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
 
 
 Name: MusyaffaImanSupriadi
-Score: 100.0
+Score: 50.0
 Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
 
 Name: MutiaCasella
-Score: 0
+Score: 50.0
 Check program: False
 Message:
-Plagiarism detected
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
 
 Name: Salim
-Score: 55.56
+Score: 50.0
 Check program: False
 Message:
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIDAKTIDAKADATIDAK
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got ADAADATIDAKADA
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIDAKTIDAKTIDAKTIDAK
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIDAKTIDAKADATIDAK
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
 
 
 Name: ShafwanHasyim
-Score: 100.0
-Check program: False
-
-Name: WesleyFrederickOh
-Score: 100.0
-Check program: False
-
-Name: AlexanderChristhian
-Score: 77.78
+Score: 50.0
 Check program: False
 Message:
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
 
 
-Name: MuhammadHilmiAlMuttaqi
-Score: 100.0
-Check program: False
-
-Name: MuhammadHilmyMahardika
-Score: 100.0
-Check program: False
-
-Name: RyanAdidaruExcelBarnabi
-Score: 11.11
+Name: WesleyFrederickOh 
+Score: 0
 Check program: False
 Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got ADATIDAKADATIDAK
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got ADAADAADATIDAK
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIDAKTIDAKADATIDAK
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIDAKTIDAKADATIDAK
-Test 6: Expected (?i)ada.*ada.*ada.*ada but got ADAADAADATIDAK
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIDAKTIDAKADATIDAK
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIDAKTIDAKADATIDAK
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got TIDAKTIDAKADATIDAK
+Compile Error
 
 
-Name: TeufikAliHadzalic
-Score: 100.0
+Name: AbednegoZebua
+Score: 0.0
 Check program: False
+Message:
+Test 1: Expected (?i)ya but got 
+Test 2: Expected (?i)ya but got 
+Test 3: Expected (?i)tidak but got 
+Test 4: Expected (?i)tidak but got 
+Test 5: Expected (?i)ya but got 
+Test 6: Expected (?i)ya but got 
+Test 7: Expected (?i)tidak but got 
+Test 8: Expected (?i)ya but got 
+Test 9: Expected (?i)tidak but got 
+Need to re-check the program
+
+
+Name: AndiMuhammadAlvinFarhansyah
+Score: 0
+Check program: False
+Message:
+Compile Error
+
+
+Name: AxelAdrialPazaKalembang
+Score: 70.0
+Check program: False
+Message:
+Test 7: Expected (?i)tidak but got YA
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: ChristianHadiwijaya
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: FadhlurezaSebastian
+Score: 60.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: FalahAndhesryo
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: GEDERAMAPRADNY
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got MASUKKANJUMLAHBARISDANKOLOMMATRIKS:MASUKKANELEMENMATRIKS:TIDAK
+Test 7: Expected (?i)tidak but got MASUKKANJUMLAHBARISDANKOLOMMATRIKS:MASUKKANELEMENMATRIKS:YA
+Test 8: Expected (?i)ya but got MASUKKANJUMLAHBARISDANKOLOMMATRIKS:MASUKKANELEMENMATRIKS:TIDAK
+Test 9: Expected (?i)tidak but got MASUKKANJUMLAHBARISDANKOLOMMATRIKS:MASUKKANELEMENMATRIKS:YA
+
+
+Name: JesayaDavid
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: JonathanMatiusWeniGerimu
+Score: 50.0
+Check program: False
+Message:
+Test 3: Expected (?i)tidak but got YA
+Test 4: Expected (?i)tidak but got YA
+Test 7: Expected (?i)tidak but got YA
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: MuhammadRaihanMustofa
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: TriYogaArsyad
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: VanesaKaylaZahra
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: AdhiRajasaRafif
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected (?i)ya but got 
+Test 2: Expected (?i)ya but got 
+Test 3: Expected (?i)tidak but got 
+Test 4: Expected (?i)tidak but got 
+Test 5: Expected (?i)ya but got 
+Test 6: Expected (?i)ya but got 
+Test 7: Expected (?i)tidak but got 
+Test 8: Expected (?i)ya but got 
+Test 9: Expected (?i)tidak but got 
+Need to re-check the program
+
+
+Name: AudyNatalieCR
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: DaffaBagusDhiananto
+Score: 70.0
+Check program: False
+Message:
+Test 7: Expected (?i)tidak but got MASUKKANJUMLAHMATRIKS:YAYAYAYAYAYA
+Test 9: Expected (?i)tidak but got MASUKKANJUMLAHMATRIKS:YAYAYAYAYAYAYA
+
+
+Name: EkanandaZhafifDean
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: IzzanNawaSyarif
+Score: 50.0
+Check program: False
+Message:
+Test 3: Expected (?i)tidak but got YA
+Test 4: Expected (?i)tidak but got YA
+Test 7: Expected (?i)tidak but got YA
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: LauraFawziaSambowo
+Score: 50.0
+Check program: False
+Message:
+Test 3: Expected (?i)tidak but got YA
+Test 4: Expected (?i)tidak but got YA
+Test 7: Expected (?i)tidak but got YA
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: WiellonaDarleneOderiaSaragih
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected (?i)ya but got 
+Test 2: Expected (?i)ya but got 
+Test 3: Expected (?i)tidak but got 
+Test 4: Expected (?i)tidak but got 
+Test 5: Expected (?i)ya but got 
+Test 6: Expected (?i)ya but got 
+Test 7: Expected (?i)tidak but got 
+Test 8: Expected (?i)ya but got 
+Test 9: Expected (?i)tidak but got 
+Need to re-check the program
+
+
+Name: JonathanFrederickKosasih
+Score: 70.0
+Check program: False
+Message:
+Test 7: Expected (?i)tidak but got YA
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: KharismaAprilia
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: MatthewImmanuel
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: MaxwellZefanyaGinting
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: MuhammadRiyanSatrioWibowo
+Score: 0.0
+Check program: False
+Message:
+Test 1: Expected (?i)ya but got 
+Test 2: Expected (?i)ya but got 
+Test 3: Expected (?i)tidak but got 
+Test 4: Expected (?i)tidak but got 
+Test 5: Expected (?i)ya but got 
+Test 6: Expected (?i)ya but got 
+Test 7: Expected (?i)tidak but got 
+Test 8: Expected (?i)ya but got 
+Test 9: Expected (?i)tidak but got 
+Need to re-check the program
+
+
+Name: SyahmiHamdani
+Score: 70.0
+Check program: False
+Message:
+Test 7: Expected (?i)tidak but got YA
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: BonifasiusRadityaPanduHendrianto
+Score: 20.0
+Check program: False
+Message:
+Test 1: Expected (?i)ya but got YES
+Test 2: Expected (?i)ya but got YES
+Test 5: Expected (?i)ya but got YES
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YES
+Test 8: Expected (?i)ya but got YES
+Test 9: Expected (?i)tidak but got YES
+
+
+Name: Gerrardin Nabil Zulhian
+Score: 0
+Check program: False
+Message:
+Compile Error
+
+
+Name: MuhammadRadityaAlifNugroho
+Score: 50.0
+Check program: False
+Message:
+Test 3: Expected (?i)tidak but got YA
+Test 4: Expected (?i)tidak but got YA
+Test 7: Expected (?i)tidak but got YA
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: DhafinHamizanSetiawan
+Score: 60.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: AdhikanandaWiraJanuar
+Score: 60.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: AlfonsusTanara
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: DaffaSayraFirdaus
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: JeremyWijanarkoMulyono
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: MAvicennaRaffaizAdiharsa
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
 
 Name: AisyaRiveliaAzzahra
-Score: 100.0
+Score: 50.0
 Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
 
 Name: Alicia
+Score: 50.0
+Check program: False
+Message:
+Test 3: Expected (?i)tidak but got YA
+Test 4: Expected (?i)tidak but got YA
+Test 7: Expected (?i)tidak but got YA
+Test 9: Expected (?i)tidak but got YA
+
+
+Name: AliyaRizqiningrumSalamun
 Score: 0
 Check program: False
 Message:
 Plagiarism detected
 
-Name: AliyaRizqiningrumSalamun
-Score: 100.0
-Check program: False
-
-Name: ANTHONIUSHENDHYWIRAWAN
-Score: 0.0
+Name: AnthoniusHendhyWirawan
+Score: 60.0
 Check program: False
 Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got TIMEOUT
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got TIMEOUT
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 6: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIMEOUT
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got TIMEOUT
-Need to re-check the program
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 9: Expected (?i)tidak but got YA
 
 
 Name: AzraNabilaAzzahra
-Score: 100.0
-Check program: False
-
-Name: DaffaHardhan
 Score: 0.0
 Check program: False
 Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got TIMEOUT
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got TIMEOUT
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 6: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIMEOUT
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got TIMEOUT
+Test 1: Expected (?i)ya but got 
+Test 2: Expected (?i)ya but got 
+Test 3: Expected (?i)tidak but got 
+Test 4: Expected (?i)tidak but got 
+Test 5: Expected (?i)ya but got 
+Test 6: Expected (?i)ya but got 
+Test 7: Expected (?i)tidak but got 
+Test 8: Expected (?i)ya but got 
+Test 9: Expected (?i)tidak but got 
 Need to re-check the program
+
+
+Name: DaffaHardhan
+Score: 70.0
+Check program: False
+Message:
+Test 7: Expected (?i)tidak but got YA
+Test 9: Expected (?i)tidak but got YA
 
 
 Name: IbnuZakyFauzi
-Score: 88.89
+Score: 50.0
 Check program: False
 Message:
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got 
+Test 6: Expected (?i)ya but got OUTPUT=TIDAK
+Test 7: Expected (?i)tidak but got OUTPUT=YA
+Test 8: Expected (?i)ya but got OUTPUT=TIDAK
+Test 9: Expected (?i)tidak but got OUTPUT=YA
+
+
+Name: JavanaMuhammadDzaki
+Score: 50.0
+Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
 
 
 Name: NelsonLaurensius
-Score: 100.0
+Score: 50.0
 Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
 
-Name: Rakaarrayan
-Score: 100.0
+
+Name: RAKA ARRAYAN
+Score: 0
 Check program: False
+Message:
+Compile Error
+
 
 Name: SitiAmaliaNurfaidah
-Score: 100.0
+Score: 50.0
 Check program: False
+Message:
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
+
 
 Name: WilmanSaragihSitio
-Score: 77.78
+Score: 50.0
 Check program: False
 Message:
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-
-
-Name: GerrardinNabilZulhian
-Score: 100.0
-Check program: False
-
-Name: NabielHaritsUtomo
-Score: 88.89
-Check program: False
-Message:
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got 
-
-
-Name: AzkaNabihan
-Score: 100.0
-Check program: False
-
-Name: CalvinWirathamaKatoroy
-Score: 11.11
-Check program: False
-Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got TIDAKTIDAKTIDAKTIDAK
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got TIDAKTIDAKADAADA
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIDAKTIDAKTIDAKTIDAK
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIDAKTIDAKTIDAKTIDAK
-Test 6: Expected (?i)ada.*ada.*ada.*ada but got ADATIDAKTIDAKADA
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIDAKTIDAKTIDAKTIDAK
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIDAKTIDAKTIDAKTIDAK
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got ADATIDAKTIDAKTIDAK
-
-
-Name: MuhammadPavel
-Score: 100.0
-Check program: False
-
-Name: RiviYashaHafizhan
-Score: 100.0
-Check program: False
-
-Name: StevieNathaniaS
-Score: 11.11
-Check program: False
-Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got ADATIDAKTIDAKTIDAK
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got ADATIDAKTIDAKTIDAK
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got ADAADATIDAKADA
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIDAKTIDAKTIDAKTIDAK
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got ADATIDAKTIDAKTIDAK
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got ADATIDAKTIDAKTIDAK
-
-
-Name: AndiMuhammadAlvinFarhansyah
-Score: 0.0
-Check program: False
-Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got TIMEOUT
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got TIMEOUT
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 6: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIMEOUT
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got TIMEOUT
-Need to re-check the program
-
-
-Name: AbednegoZebua
-Score: 100.0
-Check program: False
-
-Name: AxelAdrialPazaKalembang
-Score: 0.0
-Check program: False
-Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got TIMEOUT
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got TIMEOUT
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 6: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got TIMEOUT
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got TIMEOUT
-Need to re-check the program
-
-
-Name: ChristianHadiwijaya
-Score: 100.0
-Check program: False
-
-Name: FadhlurezaSebastian
-Score: 100.0
-Check program: False
-
-Name: FalahAndhesryo
-Score: 100.0
-Check program: False
-
-Name: GEDERAMAPRADNYA
-Score: 88.89
-Check program: False
-Message:
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got MASUKKANNILAIX:TIDAKTIDAKTIDAKTIDAK
-
-
-Name: JESAYADAVID
-Score: 88.89
-Check program: False
-Message:
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got TIDAKTIDAKTIDAKTIDAK
-
-
-Name: JonathanMatiusWeniGerimu
-Score: 77.78
-Check program: False
-Message:
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got TIMEOUT
-
-
-Name: MuhammadRaihanMustofa
-Score: 100.0
-Check program: False
-
-Name: TRIYOGAARSYAD
-Score: 0.0
-Check program: False
-Message:
-Test 1: Expected (?i)ada.*tidak.*ada.*ada but got 
-Test 2: Expected (?i)ada.*ada.*tidak.*tidak but got 
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 4: Expected (?i)tidak.*tidak.*ada.*ada but got 
-Test 5: Expected (?i)ada.*ada.*ada.*ada but got 
-Test 6: Expected (?i)ada.*ada.*ada.*ada but got TIMEOUT
-Test 7: Expected (?i)tidak.*tidak.*tidak.*ada but got 
-Test 8: Expected (?i)tidak.*tidak.*ada.*ada but got 
-Test 9: Expected (?i)tidak.*tidak.*tidak.*tidak but got 
-Need to re-check the program
-
-
-Name: D:\DigiLab\Progdas2023\Modul6\CS2\CS2\CS_2_modul6
-Score: 88.89
-Check program: False
-Message:
-Test 3: Expected (?i)ada.*ada.*ada.*ada but got ADAADAADATIDAK
+Test 6: Expected (?i)ya but got TIDAK
+Test 7: Expected (?i)tidak but got YA
+Test 8: Expected (?i)ya but got TIDAK
+Test 9: Expected (?i)tidak but got YA
 
 

@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from numba import njit, jit
 
-url = "http://moss.stanford.edu/results/1/4736725165016"
+url = "http://moss.stanford.edu/results/8/9815735277693"
 def check_plagiarism(url):
     response = requests.get(url)
     if response.status_code == 200:
