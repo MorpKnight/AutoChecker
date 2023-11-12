@@ -2,14 +2,14 @@ from UnitTest import UnitTest as UT
 from Extractor import Extractor as EX
 
 if __name__ == '__main__':
-    input_test = ["1 5", "2 5", "3 5", "1 6", "2 6", "3 6", "1 7", "2 7", "3 7"]
-    expected_output = ["29", "8", "8", "866", "32", "16", "750797", "256", "32"]
+    input_test = ["8", "5", "2", "32", "0", "1", "16", "256", "9"]
+    expected_output = ["(?i)ada.*tidak.*ada.*ada", "(?i)ada.*ada.*tidak.*tidak", "(?i)ada.*ada.*ada.*ada", "(?i)tidak.*tidak.*ada.*ada", "(?i)ada.*ada.*ada.*ada", "(?i)ada.*ada.*ada.*ada", "(?i)tidak.*tidak.*tidak.*ada", "(?i)tidak.*tidak.*ada.*ada", 
+                       "(?i)tidak.*tidak.*tidak.*tidak"]
 
-    filePath = "D:\\DigiLab\\Progdas 2023\\\Modul 7\\CS1"
+    filePath = r"D:\DigiLab\Progdas2023\Modul6\CS2\CS2"
 
     checker = UT(filePath, input_test=input_test, output_test=expected_output, regex=True)
     checker.run()
-
     # checkee2 = UT("code\\CS1", input_test=input_test, output_test=expected_output)
     # checkee2.run()
 

@@ -1,10 +1,10 @@
 import re
 
 
-pattern = re.compile(r"29")
-ouputTest = ["29", "8", "8", "866", "32", "16", "750797", "256", "32"]
+pattern = re.compile(r"(?i)ada.*ada.*ada.*ada")
+ouputTest = ["disini ada tapi ADA, tidak Ada tapi ADA", "Disana tidak ada tapi ada tidak ADA tidak"]
 for i in ouputTest:
-    if re.match(pattern, i):
+    if pattern.findall(i):
         print("Matched")
     else:
         print("Not matched")
