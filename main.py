@@ -1,21 +1,27 @@
 from UnitTest import UnitTest as UT
 from Extractor import Extractor as EX
 
-if __name__ == '__main__':
-    input_test = ["1 1 0 2 3 -1 1 0 2", "1 0 0 0 1 0 0 0 1", "2 1 0 1 3 2 0 2 4", "2 1 3 0 1 4 1 2 5", "3 2 1 1 4 3 2 1 5", "4 0 0 0 4 0 0 0 4", "5 0 0 0 3 0 0 0 2",
-                  "2 1 -1 1 2 1 1 1 1", "1 2 3 0 1 4 3 2 1", "3 0 2 2 1 4 1 2 0"]
-    expected_output = ["6\.00.*-2\.00.*-1\.00.*-5\.00.*2\.00.*1\.00.*-3\.00.*1\.00.*1\.00", "1\.00.*0\.00.*0\.00.*0\.00.*1\.00.*0\.00.*0\.00.*0\.00.*1\.00",
-                       "0\.67.*-0\.33.*0\.17.*-0\.33.*0\.67.*-0\.33.*0\.17.*-0\.33.*0\.42", "0\.60.*-0\.20.*-0\.20.*-0\.80.*-1\.40.*1\.60.*0\.20.*0\.60.*-0\.40",
-                       "0\.37.*-0\.20.*0\.04.*0\.02.*0\.28.*-0\.17.*-0\.15.*0\.02.*0\.22", "0\.25.*0\.00.*0\.00.*0\.00.*0\.25.*0\.00.*0\.00.*0\.00.*0\.25",
-                       "0\.20.*0\.00.*0\.00.*0\.00.*0\.33.*0\.00.*0\.00.*0\.00.*0\.50", "0\.33.*-0\.67.*1\.00.*0\.00.*1\.00.*-1\.00.*-0\.33.*-0\.33.*1\.00",
-                       "-0\.88.*0\.50.*0\.63.*1\.50.*-1\.00.*-0\.50.*-0\.38.*0\.50.*0\.13", "0\.44.*-0\.22.*0\.11.*-0\.22.*0\.11.*0\.44.*-0\.17.*0\.33.*-0\.17"]
+def read_input(filename):
+    with open(filename, "r") as f:
+        lines = f.readlines()
+        f.close()
+    return lines
 
-    filePath = r"D:\DigiLab\Progdas2023\Modul7\CS2\CS2"
+if __name__ == '__main__':
+    input_test = read_input("input.txt")
+    # for i in input_test remove \n
+    for i in range(len(input_test)):
+        input_test[i] = input_test[i].replace("\n", "")
+    expected_output = read_input("output.txt")
+    # for i in expected_output remove \n
+    for i in range(len(expected_output)):
+        expected_output[i] = expected_output[i].replace("\n", "")
+
+    filePath = r"D:\DigiLab\Progdas2023\Modul7\PT\PT"
 
     checker = UT(filePath, input_test=input_test, output_test=expected_output, regex=True)
     checker.run()
-    # checkee2 = UT("code\\CS1", input_test=input_test, output_test=expected_output)
-    # checkee2.run()
+    # checker.generate_output()
 
-    # extractor = EX("code")
-    # extractor.check_plagiarism()
+    # extractor = EX(filePath, folderName=["PT"])
+    # extractor.run()

@@ -329,3 +329,19 @@ class UnitTest:
         self.result_csv()
         self.result_txt()
         print("\nDone")
+
+    def generate_output(self):
+        for file in os.listdir(self.folder_name):
+            if file.endswith(".c"):
+                self.filename = os.path.join(self.folder_name, file)
+                self.compileC()
+                self.test()
+
+                if not os.path.exists("output.txt"):
+                    f = open("output.txt", "w")
+                    f.close()
+
+                with open("output.txt", "w") as f:
+                    for i in self.actual_output_list:
+                        f.write(i + "\n")
+                    f.close()

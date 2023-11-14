@@ -104,4 +104,8 @@ class Extractor:
             print(f"Report Url {mossPath}: " + url)
 
     def run(self):
-        pass
+        self.separate_file_by_name()
+        sleep(1)
+        self.remove_empty_folder()
+        sleep(1)
+        self.spa
