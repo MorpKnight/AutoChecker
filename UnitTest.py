@@ -188,6 +188,7 @@ class UnitTest:
         print("Report Url: " + url)
 
     def hydrate_plagiat(self):
+        self.check_plagiarism()
         response = requests.get(self.mossURL)
 
         if response.status_code == 200:
@@ -258,7 +259,6 @@ class UnitTest:
                 sleep(1)
                 self.actual_output_list = []
                 os.system("cls")
-        self.check_plagiarism()
         self.hydrate_plagiat()
         self.generate_result()
         print("\nDone")

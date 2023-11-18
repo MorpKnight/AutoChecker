@@ -15,70 +15,50 @@ class Extractor:
         self.path = path
         self.folderName:list = kwargs.get('folderName', [])
         self.userid_moss = 220418487
+        self.run()
 
-    def extract(self):
+    def extract_zip(self):
         for root, dirs, files in os.walk(self.path):
             for file in files:
-                if file.endswith('.zip'):
-                    zipPath = os.path.join(root, file)
+                if file.endswith(".zip"):
+                    file_path = os.path.join(root, file)
                     try:
-                        with zipfile.ZipFile(zipPath, 'r') as zip_ref:
+                        with zipfile.ZipFile(file_path, 'r') as zip_ref:
                             zip_ref.extractall(root)
-                    except zipfile.BadZipFile:
-                        continue
-                    except FileExistsError:
-                        continue
-    
-    def remove_zip(self):
-        for root, dirs, files in os.walk(self.path):
-            for file in files:
-                if file.endswith('.zip'):
-                    try:
-                        os.remove(os.path.join(root, file))
+                        os.remove(file_path)
+                        print(f"Extracted {file_path}")
                     except:
-                        print('Failed to remove: ' + os.path.join(root, file))
+                        print(f"Error extracting {file_path}")
+                        pass
 
-    def uppercase_filename(self):
+    def remove(self):
         for root, dirs, files in os.walk(self.path):
             for file in files:
-                os.rename(os.path.join(root, file), os.path.join(root, file.upper()))
-                os.rename(os.path.join(root, file.upper()), os.path.join(root, file.upper().replace('.C', '.c')))
+                if file.upper().endswith(".JPG") or file.upper().endswith(".PNG") or file.upper().endswith(".JPEG"):
+                    file_path = os.path.join(root, file)
+                    os.remove(file_path)
+                if ' ' in file:
+                    os.rename(os.path.join(root, file), os.path.join(root, file.replace(' ', '')))
+                if '._' in file:
+                    os.rename(os.path.join(root, file), os.path.join(root, file.replace('._', '')))
 
-    def remove_picture(self):
-        self.uppercase_filename()
-        for root, dirs, files in os.walk(self.path):
-            for file in files:
-                if file.endswith('.JPG') or file.endswith('.PNG') or file.endswith('.JPEG'):
-                    os.remove(os.path.join(root, file))
-
-    def remove_empty_folder(self):
-        for root, dirs, files in os.walk(self.path):
             if len(dirs) == 0 and len(files) == 0:
                 os.rmdir(root)
 
-    def separate_file_by_name(self):
+    def separate(self):
         try:
             for folder in self.folderName:
                 if not os.path.exists(os.path.join(self.path, folder)):
                     os.makedirs(os.path.join(self.path, folder))
-
-            sleep(1)
-            for root, dirs, files in os.walk(self.path):
-                for file in files:
-                    for folder in self.folderName:
-                        if folder in file:
-                            os.rename(os.path.join(root, file), os.path.join(self.path, folder, file))
-                            print('Moved: ' + os.path.join(root, file) + ' to ' + os.path.join(self.path, folder, file))
+                for root, dirs, files in os.walk(self.path):
+                    for file in files:
+                        file_path = os.path.join(root, file)
+                        if folder.upper() in file_path.upper():
+                            os.rename(file_path, os.path.join(self.path, folder, file))
         except:
-            print('Failed to separate')
-
-    def check_plagiarism(self):
-        moss = mosspy.Moss(self.userid_moss, "C")
-        mossDir = ["CS1", "CS2"]
-        for mossPath in mossDir:
-            moss.addFilesByWildcard(os.path.join(self.path, mossPath, "*.c"))
-            url = moss.send()
-            print(f"Report Url {mossPath}: " + url)
-
+            pass
+    
     def run(self):
-        pass
+        self.extract_zip()
+        self.remove()
+        self.separate()
