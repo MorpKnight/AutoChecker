@@ -34,13 +34,13 @@ class Extractor:
     def remove(self):
         for root, dirs, files in os.walk(self.path):
             for file in files:
-                if file.upper().endswith(".JPG") or file.upper().endswith(".PNG") or file.upper().endswith(".JPEG"):
-                    file_path = os.path.join(root, file)
-                    os.remove(file_path)
                 if ' ' in file:
                     os.rename(os.path.join(root, file), os.path.join(root, file.replace(' ', '')))
                 if '._' in file:
                     os.rename(os.path.join(root, file), os.path.join(root, file.replace('._', '')))
+                if file.upper().endswith(".JPG") or file.upper().endswith(".PNG") or file.upper().endswith(".JPEG"):
+                    file_path = os.path.join(root, file)
+                    os.remove(file_path)
 
             if len(dirs) == 0 and len(files) == 0:
                 os.rmdir(root)
