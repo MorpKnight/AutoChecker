@@ -20,6 +20,8 @@ class Extractor:
     def extract_zip(self):
         for root, dirs, files in os.walk(self.path):
             for file in files:
+                if ' ' in file:
+                    os.rename(os.path.join(root, file), os.path.join(root, file.replace(' ', '')))
                 if file.endswith(".zip"):
                     file_path = os.path.join(root, file)
                     try:
