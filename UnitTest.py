@@ -29,7 +29,7 @@ class UnitTest:
         self.run()
 
     def read_input(self):
-        with open("input.txt", "r") as f:
+        with open(".txt/input.txt", "r") as f:
             lines = f.readlines()
             f.close()
         for i in range(len(lines)):
@@ -37,7 +37,7 @@ class UnitTest:
         return lines
     
     def read_output(self):
-        with open("output.txt", "r") as f:
+        with open(".txt/output.txt", "r") as f:
             lines = f.readlines()
             f.close()
         for i in range(len(lines)):
@@ -151,19 +151,20 @@ class UnitTest:
     def get_student(self):
         return self.student
     
-    def result_csv(self):
-        with open("result.csv", "a") as f:
-            f.write("Name, Score\n")
-            for i in self.student:
-                f.write(f"{i.name}, {i.score}\n")
-
-    def result_txt(self):
-        with open("result.txt", "w") as f:
+    def generate_result(self):
+        if not os.path.exists(".txt"):
+            os.mkdir(".txt")
+        with open(".txt/result.txt", "w") as f:
+            f.write("Name: Score\n")
             for i in self.student:
                 if i.message == "":
                     f.write(f"Name: {i.name}\nScore: {i.score}\nCheck program: {i.regex_output}\n\n")
                 else:
                     f.write(f"Name: {i.name}\nScore: {i.score}\nCheck program: {i.regex_output}\nMessage:\n{i.message}\n\n")
+        with open(".txt/result.csv", "w") as f:
+            f.write("Name, Score\n")
+            for i in self.student:
+                f.write(f"{i.name}, {i.score}\n")
 
     def checkProgram(self):
         regex_pattern = r'for\s*\(.*\)\s*\{.*for\s*\(.*\)\s*\{'
@@ -259,6 +260,5 @@ class UnitTest:
                 os.system("cls")
         self.check_plagiarism()
         self.hydrate_plagiat()
-        self.result_csv()
-        self.result_txt()
+        self.generate_result()
         print("\nDone")
