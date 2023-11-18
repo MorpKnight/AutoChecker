@@ -6,8 +6,6 @@ code/**.c
 code/**.h
 code/**
 
-.txt/**
-
 __pycache__/
 .vscode/
 result.csv
