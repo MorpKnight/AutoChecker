@@ -10,12 +10,5 @@ if __name__ == '__main__':
                        "0\.20.*0\.00.*0\.00.*0\.00.*0\.33.*0\.00.*0\.00.*0\.00.*0\.50", "0\.33.*-0\.67.*1\.00.*0\.00.*1\.00.*-1\.00.*-0\.33.*-0\.33.*1\.00",
                        "-0\.88.*0\.50.*0\.63.*1\.50.*-1\.00.*-0\.50.*-0\.38.*0\.50.*0\.13", "0\.44.*-0\.22.*0\.11.*-0\.22.*0\.11.*0\.44.*-0\.17.*0\.33.*-0\.17"]
 
-    filePath = r"D:\DigiLab\Progdas2023\Modul7\CS2\CS2"
-
-    checker = UT(filePath, input_test=input_test, output_test=expected_output, regex=True)
-    checker.run()
-    # checkee2 = UT("code\\CS1", input_test=input_test, output_test=expected_output)
-    # checkee2.run()
-
-    # extractor = EX("code")
-    # extractor.check_plagiarism()
+    filePath = r"D:\DigiLab\Progdas2023\Modul7\CS2\CS1"
+    checker = UT(filePath, regex=True)
