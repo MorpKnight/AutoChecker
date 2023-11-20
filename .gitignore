@@ -2,9 +2,8 @@
 **/*.exe
 .vscode
 
-code/**.c
-code/**.h
-code/**
+input.txt
+result.txt
 
 __pycache__/
 .vscode/
