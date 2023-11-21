@@ -74,6 +74,20 @@ class Extractor:
         except:
             pass
     
+    def separate_by_extension(self):
+        try:
+            for root, dirs, files in os.walk(self.path):
+                for file in files:
+                    file_path = os.path.join(root, file)
+                    if not os.path.exist(os.path.join(self.path, file.split('.')[-1])):
+                        os.makedirs(os.path.join(self.path, file.split('.')[-1]))
+                    try:
+                        os.rename(file_path, os.path.join(self.path, file.split('.')[-1], file))
+                    except:
+                        pass
+        except:
+            pass
+    
     def run(self):
         self.extract_zip()
         self.remove()
