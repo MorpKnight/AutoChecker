@@ -259,6 +259,9 @@ class UnitTest:
                 sleep(1)
                 self.actual_output_list = []
                 os.system("cls")
-        self.hydrate_plagiat()
+        try:
+            self.hydrate_plagiat()
+        except:
+            pass
         self.generate_result()
         print("\nDone")
