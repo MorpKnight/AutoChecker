@@ -1,55 +1,19 @@
 Name: Score
 Name: AlexanderChristhian
 Score: 100.0
+Aslab: AJ
 Check program: False
 
-Name: MuhammadHilmyMahardika
-Score: 70.0
-Check program: False
-Message:
-Test 4: Expected tidak but got IYA
-Test 7: Expected tidak but got IYA
-Test 9: Expected tidak but got IYA
-
-
-Name: NabielHaritsUtomo
-Score: 60.0
-Check program: False
-Message:
-Test 3: Expected tidak but got YA
-Test 4: Expected tidak but got YA
-Test 7: Expected tidak but got YA
-Test 9: Expected tidak but got YA
-
-
-Name: TeufikAliHadzalic
-Score: 100.0
-Check program: False
-
-Name: AzkaNabihan
-Score: 100.0
-Check program: False
-
-Name: MuhammadIrfanFakhrianto
+Name: AMMARFATTAN
 Score: 0
+Aslab: AJ
 Check program: False
 Message:
 Plagiarism detected
 
-Name: MuhammadPavel
-Score: 100.0
-Check program: False
-
-Name: NaufalHadiRasikhin
-Score: 100.0
-Check program: False
-
-Name: RiviYashaHafizhan
-Score: 100.0
-Check program: False
-
-Name: StevieNathaniaSiregar
+Name: GraceYunikeMargarethaSitorus
 Score: 40.0
+Aslab: AJ
 Check program: False
 Message:
 Test 1: Expected ya but got TIDAK
@@ -60,70 +24,113 @@ Test 8: Expected ya but got TIDAK
 Test 10: Expected ya but got TIDAK
 
 
-Name: MuhammadRafli
+Name: MuhammadHilmiAlMuttaqi
 Score: 100.0
+Aslab: AJ
 Check program: False
 
-Name: AdrianDikaDarmawan
-Score: 60.0
+Name: MuhammadHilmyMahardika
+Score: 70.0
+Aslab: AJ
 Check program: False
 Message:
-Test 3: Expected tidak but got YA
+Test 4: Expected tidak but got IYA
+Test 7: Expected tidak but got IYA
+Test 9: Expected tidak but got IYA
+
+
+Name: NabielHaritsUtomo
+Score: 70.0
+Aslab: AJ
+Check program: False
+Message:
 Test 4: Expected tidak but got YA
 Test 7: Expected tidak but got YA
 Test 9: Expected tidak but got YA
 
 
+Name: TeufikAliHadzalic
+Score: 100.0
+Aslab: AJ
+Check program: False
+
+Name: 2306266994
+Score: 100.0
+Aslab: AJ
+Check program: False
+
+Name: AzkaNabihan
+Score: 100.0
+Aslab: AM
+Check program: False
+
+Name: MuhammadIrfanFakhrianto
+Score: 0.0
+Aslab: AM
+Check program: False
+Message:
+Test 1: Expected ya but got 
+Test 2: Expected ya but got 
+Test 3: Expected tidak but got 
+Test 4: Expected tidak but got 
+Test 5: Expected ya but got 
+Test 6: Expected ya but got 
+Test 7: Expected tidak but got 
+Test 8: Expected ya but got 
+Test 9: Expected tidak but got 
+Test 10: Expected ya but got 
+Need to re-check the program
+
+
+Name: MuhammadPavel
+Score: 100.0
+Aslab: AM
+Check program: False
+
+Name: NaufalHadiRasikhin
+Score: 100.0
+Aslab: AM
+Check program: False
+
+Name: RiviYashaHafizhan
+Score: 100.0
+Aslab: AM
+Check program: False
+
+Name: StevieNathaniaSiregar
+Score: 100.0
+Aslab: AM
+Check program: False
+
 Name: DwiginaSittiZahwa
 Score: 100.0
+Aslab: AR
 Check program: False
 
-Name: FidoWahyuChoirulinsan
-Score: 0.0
+Name: MuhammadRafli
+Score: 0
+Aslab: AR
 Check program: False
 Message:
-Test 1: Expected ya but got 
-Test 2: Expected ya but got 
-Test 3: Expected tidak but got 
-Test 4: Expected tidak but got 
-Test 5: Expected ya but got 
-Test 6: Expected ya but got 
-Test 7: Expected tidak but got 
-Test 8: Expected ya but got 
-Test 9: Expected tidak but got 
-Test 10: Expected ya but got 
-Need to re-check the program
-
+Plagiarism detected
 
 Name: NeylaShakira
-Score: 0.0
+Score: 0
+Aslab: AR
 Check program: False
 Message:
-Test 1: Expected ya but got 
-Test 2: Expected ya but got 
-Test 3: Expected tidak but got 
-Test 4: Expected tidak but got 
-Test 5: Expected ya but got 
-Test 6: Expected ya but got 
-Test 7: Expected tidak but got 
-Test 8: Expected ya but got 
-Test 9: Expected tidak but got 
-Test 10: Expected ya but got 
-Need to re-check the program
-
+Plagiarism detected
 
 Name: PutriKiaraSalsabilaArief
-Score: 60.0
+Score: 0
+Aslab: AR
 Check program: False
 Message:
-Test 3: Expected tidak but got MASUKKANJUMLAHBARISDANKOLOMMATRIKS:MASUKKANELEMENMATRIKS[6422280][0]:MASUKKANELEMENMATRIKS[6382280][0]:MASUKKANELEMENMATRIKS[6382284][0]:MASUKKANELEMENMATRIKS[6382288][0]:MASUKKANELEMENMATRIKS[6382292][0]:MASUKKANELEMENMATRIKS[6382296][0]:MASUKKANELEMENMATRIKS[6382680][0]:MASUKKANELEMENMATRIKS[6382684][0]:MASUKKANELEMENMATRIKS[6382688][0]:MASUKKANELEMENMATRIKS[6382692][0]:MASUKKANELEMENMATRIKS[6382696][0]:MASUKKANELEMENMATRIKS[6383080][0]:MASUKKANELEMENMATRIKS[6383084][0]:MASUKKANELEMENMATRIKS[6383088][0]:MASUKKANELEMENMATRIKS[6383092][0]:MASUKKANELEMENMATRIKS[6383096][0]:MASUKKANELEMENMATRIKS[6383480][0]:MASUKKANELEMENMATRIKS[6383484][0]:MASUKKANELEMENMATRIKS[6383488][0]:MASUKKANELEMENMATRIKS[6383492][0]:MASUKKANELEMENMATRIKS[6383496][0]:MASUKKANELEMENMATRIKS[6383880][0]:MASUKKANELEMENMATRIKS[6383884][0]:MASUKKANELEMENMATRIKS[6383888][0]:MASUKKANELEMENMATRIKS[6383892][0]:YA
-Test 4: Expected tidak but got MASUKKANJUMLAHBARISDANKOLOMMATRIKS:MASUKKANELEMENMATRIKS[6422280][0]:MASUKKANELEMENMATRIKS[6382280][0]:MASUKKANELEMENMATRIKS[6382284][0]:MASUKKANELEMENMATRIKS[6382288][0]:MASUKKANELEMENMATRIKS[6382292][0]:MASUKKANELEMENMATRIKS[6382680][0]:MASUKKANELEMENMATRIKS[6382684][0]:MASUKKANELEMENMATRIKS[6382688][0]:MASUKKANELEMENMATRIKS[6382692][0]:MASUKKANELEMENMATRIKS[6383080][0]:MASUKKANELEMENMATRIKS[6383084][0]:MASUKKANELEMENMATRIKS[6383088][0]:MASUKKANELEMENMATRIKS[6383092][0]:MASUKKANELEMENMATRIKS[6383480][0]:MASUKKANELEMENMATRIKS[6383484][0]:MASUKKANELEMENMATRIKS[6383488][0]:YA
-Test 7: Expected tidak but got MASUKKANJUMLAHBARISDANKOLOMMATRIKS:MASUKKANELEMENMATRIKS[6422280][0]:MASUKKANELEMENMATRIKS[6382280][0]:MASUKKANELEMENMATRIKS[6382284][0]:MASUKKANELEMENMATRIKS[6382288][0]:MASUKKANELEMENMATRIKS[6382292][0]:MASUKKANELEMENMATRIKS[6382296][0]:MASUKKANELEMENMATRIKS[6382680][0]:MASUKKANELEMENMATRIKS[6382684][0]:MASUKKANELEMENMATRIKS[6382688][0]:MASUKKANELEMENMATRIKS[6382692][0]:MASUKKANELEMENMATRIKS[6382696][0]:MASUKKANELEMENMATRIKS[6383080][0]:MASUKKANELEMENMATRIKS[6383084][0]:MASUKKANELEMENMATRIKS[6383088][0]:MASUKKANELEMENMATRIKS[6383092][0]:MASUKKANELEMENMATRIKS[6383096][0]:MASUKKANELEMENMATRIKS[6383480][0]:MASUKKANELEMENMATRIKS[6383484][0]:MASUKKANELEMENMATRIKS[6383488][0]:MASUKKANELEMENMATRIKS[6383492][0]:MASUKKANELEMENMATRIKS[6383496][0]:MASUKKANELEMENMATRIKS[6383880][0]:MASUKKANELEMENMATRIKS[6383884][0]:MASUKKANELEMENMATRIKS[6383888][0]:MASUKKANELEMENMATRIKS[6383892][0]:YA
-Test 9: Expected tidak but got MASUKKANJUMLAHBARISDANKOLOMMATRIKS:MASUKKANELEMENMATRIKS[6422280][0]:MASUKKANELEMENMATRIKS[6382280][0]:MASUKKANELEMENMATRIKS[6382284][0]:MASUKKANELEMENMATRIKS[6382288][0]:MASUKKANELEMENMATRIKS[6382292][0]:MASUKKANELEMENMATRIKS[6382296][0]:MASUKKANELEMENMATRIKS[6382300][0]:MASUKKANELEMENMATRIKS[6382680][0]:MASUKKANELEMENMATRIKS[6382684][0]:MASUKKANELEMENMATRIKS[6382688][0]:MASUKKANELEMENMATRIKS[6382692][0]:MASUKKANELEMENMATRIKS[6382696][0]:MASUKKANELEMENMATRIKS[6382700][0]:MASUKKANELEMENMATRIKS[6383080][0]:MASUKKANELEMENMATRIKS[6383084][0]:MASUKKANELEMENMATRIKS[6383088][0]:MASUKKANELEMENMATRIKS[6383092][0]:MASUKKANELEMENMATRIKS[6383096][0]:MASUKKANELEMENMATRIKS[6383100][0]:MASUKKANELEMENMATRIKS[6383480][0]:MASUKKANELEMENMATRIKS[6383484][0]:MASUKKANELEMENMATRIKS[6383488][0]:MASUKKANELEMENMATRIKS[6383492][0]:MASUKKANELEMENMATRIKS[6383496][0]:MASUKKANELEMENMATRIKS[6383500][0]:MASUKKANELEMENMATRIKS[6383880][0]:MASUKKANELEMENMATRIKS[6383884][0]:MASUKKANELEMENMATRIKS[6383888][0]:MASUKKANELEMENMATRIKS[6383892][0]:MASUKKANELEMENMATRIKS[6383896][0]:MASUKKANELEMENMATRIKS[6383900][0]:MASUKKANELEMENMATRIKS[6384280][0]:MASUKKANELEMENMATRIKS[6384284][0]:MASUKKANELEMENMATRIKS[6384288][0]:MASUKKANELEMENMATRIKS[6384292][0]:MASUKKANELEMENMATRIKS[6384296][0]:YA
-
+Plagiarism detected
 
 Name: RaddiefEzraSatrioAndaru
 Score: 60.0
+Aslab: AR
 Check program: False
 Message:
 Test 3: Expected tidak but got YA
@@ -134,99 +141,78 @@ Test 9: Expected tidak but got YA
 
 Name: RafiNaufalAryaputra
 Score: 0
+Aslab: AR
 Check program: False
 Message:
 Plagiarism detected
 
-Name: MuhammadIkhsanKurniawan
-Score: 0
-Check program: False
-Message:
-Compile Error
-
-
 Name: AhmadFarizKhairi
-Score: 0.0
+Score: 40.0
+Aslab: ED
 Check program: False
 Message:
-Test 1: Expected ya but got 
-Test 2: Expected ya but got 
-Test 3: Expected tidak but got 
-Test 4: Expected tidak but got 
-Test 5: Expected ya but got 
-Test 6: Expected ya but got 
-Test 7: Expected tidak but got 
+Test 3: Expected tidak but got MASUKKANJUMLAHKOTAKYANGDIINGINKAN,BAIKHORIZONTALMAUPUNVERTIKAL!MASUKKANANGKA-ANGKAUNTUKMENDAPATKANHASIL!YA
+Test 4: Expected tidak but got MASUKKANJUMLAHKOTAKYANGDIINGINKAN,BAIKHORIZONTALMAUPUNVERTIKAL!MASUKKANANGKA-ANGKAUNTUKMENDAPATKANHASIL!YA
+Test 7: Expected tidak but got MASUKKANJUMLAHKOTAKYANGDIINGINKAN,BAIKHORIZONTALMAUPUNVERTIKAL!MASUKKANANGKA-ANGKAUNTUKMENDAPATKANHASIL!YA
 Test 8: Expected ya but got 
 Test 9: Expected tidak but got 
 Test 10: Expected ya but got 
-Need to re-check the program
+
+
+Name: AhmadFarizKhairi
+Score: 40.0
+Aslab: ED
+Check program: False
+Message:
+Test 3: Expected tidak but got MASUKKANJUMLAHKOTAKYANGDIINGINKAN,BAIKHORIZONTALMAUPUNVERTIKAL!MASUKKANANGKA-ANGKAUNTUKMENDAPATKANHASIL!YA
+Test 4: Expected tidak but got MASUKKANJUMLAHKOTAKYANGDIINGINKAN,BAIKHORIZONTALMAUPUNVERTIKAL!MASUKKANANGKA-ANGKAUNTUKMENDAPATKANHASIL!YA
+Test 7: Expected tidak but got MASUKKANJUMLAHKOTAKYANGDIINGINKAN,BAIKHORIZONTALMAUPUNVERTIKAL!MASUKKANANGKA-ANGKAUNTUKMENDAPATKANHASIL!YA
+Test 8: Expected ya but got 
+Test 9: Expected tidak but got 
+Test 10: Expected ya but got 
 
 
 Name: ArsintaKiranaNisa
 Score: 100.0
-Check program: False
-
-Name: BryanHerdianto
-Score: 100.0
+Aslab: ED
 Check program: False
 
 Name: DeandroNajwanAhmadSyahbanna
-Score: 0.0
+Score: 100.0
+Aslab: ED
 Check program: False
-Message:
-Test 1: Expected ya but got 
-Test 2: Expected ya but got 
-Test 3: Expected tidak but got 
-Test 4: Expected tidak but got 
-Test 5: Expected ya but got 
-Test 6: Expected ya but got 
-Test 7: Expected tidak but got 
-Test 8: Expected ya but got 
-Test 9: Expected tidak but got 
-Test 10: Expected ya but got 
-Need to re-check the program
-
 
 Name: MirzaAdiRaffiansyah
 Score: 100.0
+Aslab: ED
 Check program: False
 
 Name: MuhammadAryaWiandraUtomo
-Score: 0.0
+Score: 100.0
+Aslab: ED
+Check program: False
+
+Name: MuhammadIkhsanKurniawan
+Score: 90.0
+Aslab: ED
 Check program: False
 Message:
-Test 1: Expected ya but got 
-Test 2: Expected ya but got 
-Test 3: Expected tidak but got 
-Test 4: Expected tidak but got 
-Test 5: Expected ya but got 
-Test 6: Expected ya but got 
-Test 7: Expected tidak but got 
-Test 8: Expected ya but got 
-Test 9: Expected tidak but got 
-Test 10: Expected ya but got 
-Need to re-check the program
+Test 9: Expected tidak but got YA
 
+
+Name: NugrohoUlilAbshar
+Score: 100.0
+Aslab: ED
+Check program: False
 
 Name: RubenKristanto
-Score: 0.0
+Score: 100.0
+Aslab: ED
 Check program: False
-Message:
-Test 1: Expected ya but got 
-Test 2: Expected ya but got 
-Test 3: Expected tidak but got 
-Test 4: Expected tidak but got 
-Test 5: Expected ya but got 
-Test 6: Expected ya but got 
-Test 7: Expected tidak but got 
-Test 8: Expected ya but got 
-Test 9: Expected tidak but got 
-Test 10: Expected ya but got 
-Need to re-check the program
-
 
 Name: DimasAnandaSutiardi
 Score: 40.0
+Aslab: EL
 Check program: False
 Message:
 Test 1: Expected ya but got TIDAKTIDAKTIDAK
@@ -239,129 +225,103 @@ Test 10: Expected ya but got TIDAKTIDAKTIDAKTIDAKTIDAKTIDAKTIDAK
 
 Name: FathanYazidSatriani
 Score: 100.0
+Aslab: EL
 Check program: False
 
 Name: FauzanFarrasHakimBudiHandoyo
 Score: 100.0
-Check program: False
-
-Name: GanendraGardaPratama
-Score: 100.0
+Aslab: EL
 Check program: False
 
 Name: IsyanaTreviaPohaci
-Score: 40.0
+Score: 0.0
+Aslab: EL
 Check program: False
 Message:
-Test 1: Expected ya but got TIDAK
-Test 2: Expected ya but got TIDAK
-Test 5: Expected ya but got TIDAK
-Test 6: Expected ya but got TIDAK
-Test 8: Expected ya but got TIDAK
-Test 10: Expected ya but got TIDAK
+Test 1: Expected ya but got 
+Test 2: Expected ya but got 
+Test 3: Expected tidak but got 
+Test 4: Expected tidak but got 
+Test 5: Expected ya but got 
+Test 6: Expected ya but got 
+Test 7: Expected tidak but got 
+Test 8: Expected ya but got 
+Test 9: Expected tidak but got 
+Test 10: Expected ya but got 
+Need to re-check the program
 
 
 Name: MuhamadReyKafakaFadlan
 Score: 100.0
+Aslab: EL
 Check program: False
 
 Name: R.AishaSyauqiRamadhani
 Score: 0
+Aslab: EL
 Check program: False
 Message:
 Compile Error
-
-
-Name: RowenRodotuaHarahap
-Score: 60.0
-Check program: False
-Message:
-Test 3: Expected tidak but got YA
-Test 4: Expected tidak but got YA
-Test 7: Expected tidak but got YA
-Test 9: Expected tidak but got YA
 
 
 Name: SamihBassam
 Score: 100.0
+Aslab: EL
 Check program: False
 
 Name: ZhafiraZahraAlfarisy
 Score: 100.0
+Aslab: EL
 Check program: False
 
-Name: 2306209095
+Name: BenedictAurelius
 Score: 100.0
-Check program: False
-
-Name: KelvinFerrellTjoe
-Score: 0.0
-Check program: False
-Message:
-Test 1: Expected ya but got TIMEOUT
-Test 2: Expected ya but got TIMEOUT
-Test 3: Expected tidak but got TIMEOUT
-Test 4: Expected tidak but got TIMEOUT
-Test 5: Expected ya but got TIMEOUT
-Test 6: Expected ya but got TIMEOUT
-Test 7: Expected tidak but got TIMEOUT
-Test 8: Expected ya but got TIMEOUT
-Test 9: Expected tidak but got TIMEOUT
-Test 10: Expected ya but got TIMEOUT
-Need to re-check the program
-
-
-Name: AdiNugroho
-Score: 100.0
+Aslab: EZ
 Check program: False
 
 Name: FilagaTifiraMuthi
 Score: 100.0
+Aslab: EZ
 Check program: False
 
 Name: JesieTenardi
-Score: 0
-Check program: False
-Message:
-Compile Error
-
-
-Name: MuhamadHakimNizami
 Score: 100.0
+Aslab: EZ
 Check program: False
 
 Name: MuhammadNadzhifFikri
 Score: 100.0
+Aslab: EZ
 Check program: False
 
 Name: MusyaffaImanSupriadi
 Score: 100.0
+Aslab: EZ
 Check program: False
 
 Name: MutiaCasella
-Score: 60.0
+Score: 100.0
+Aslab: EZ
 Check program: False
-Message:
-Test 3: Expected tidak but got YA
-Test 4: Expected tidak but got YA
-Test 7: Expected tidak but got YA
-Test 9: Expected tidak but got YA
-
 
 Name: Salim
 Score: 100.0
+Aslab: EZ
 Check program: False
 
 Name: ShafwanHasyim
 Score: 100.0
+Aslab: EZ
 Check program: False
 
 Name: WesleyFrederickOh
 Score: 100.0
+Aslab: EZ
 Check program: False
 
 Name: AbednegoZebua
 Score: 0.0
+Aslab: GI
 Check program: False
 Message:
 Test 1: Expected ya but got 
@@ -379,6 +339,7 @@ Need to re-check the program
 
 Name: AndiMuhammadAlvinFarhansyah
 Score: 0.0
+Aslab: GI
 Check program: False
 Message:
 Test 1: Expected ya but got 
@@ -395,47 +356,72 @@ Need to re-check the program
 
 
 Name: AxelAdrialPazaKalembang
-Score: 40.0
+Score: 70.0
+Aslab: GI
 Check program: False
 Message:
-Test 1: Expected ya but got TIDAK
-Test 2: Expected ya but got TIDAK
-Test 5: Expected ya but got TIDAK
-Test 6: Expected ya but got TIDAK
-Test 8: Expected ya but got TIDAK
-Test 10: Expected ya but got TIDAK
+Test 4: Expected tidak but got YA
+Test 7: Expected tidak but got YA
+Test 9: Expected tidak but got YA
 
 
 Name: ChristianHadiwijaya
 Score: 100.0
+Aslab: GI
 Check program: False
 
 Name: FadhlurezaSebastian
-Score: 40.0
+Score: 90.0
+Aslab: GI
 Check program: False
 Message:
-Test 1: Expected ya but got TIDAK
-Test 2: Expected ya but got TIDAK
-Test 5: Expected ya but got TIDAK
-Test 6: Expected ya but got TIDAK
-Test 8: Expected ya but got TIDAK
-Test 10: Expected ya but got TIDAK
+Test 9: Expected tidak but got YA
 
 
 Name: FalahAndhesryo
 Score: 100.0
+Aslab: GI
 Check program: False
 
-Name: GedeRamaPradnya
+Name: GEDERAMAPRADNY
 Score: 100.0
+Aslab: GI
 Check program: False
 
 Name: JesayaDavid
 Score: 100.0
+Aslab: GI
 Check program: False
 
 Name: JonathanMatiusWeniGerimu
+Score: 60.0
+Aslab: GI
+Check program: False
+Message:
+Test 3: Expected tidak but got YA
+Test 4: Expected tidak but got YA
+Test 7: Expected tidak but got YA
+Test 9: Expected tidak but got YA
+
+
+Name: MuhammadRaihanMustofa
+Score: 100.0
+Aslab: GI
+Check program: False
+
+Name: TriYogaArsyad
+Score: 100.0
+Aslab: GI
+Check program: False
+
+Name: VanesaKaylaZahra
+Score: 100.0
+Aslab: GI
+Check program: False
+
+Name: AdhiRajasaRafif
 Score: 0.0
+Aslab: JJ
 Check program: False
 Message:
 Test 1: Expected ya but got 
@@ -451,40 +437,24 @@ Test 10: Expected ya but got
 Need to re-check the program
 
 
-Name: MuhammadRaihanMustofa
-Score: 100.0
-Check program: False
-
-Name: VanesaKaylaZahra
-Score: 0
-Check program: False
-Message:
-Compile Error
-
-
-Name: 2306161920.c
-Score: 0
-Check program: False
-Message:
-Compile Error
-
-
-Name: AdhiRajasaRafif
-Score: 0
-Check program: False
-Message:
-Plagiarism detected
-
 Name: AudyNatalieCR
 Score: 100.0
+Aslab: JJ
 Check program: False
 
 Name: DaffaBagusDhiananto
 Score: 100.0
+Aslab: JJ
 Check program: False
 
 Name: EkanandaZhafifDean
+Score: 100.0
+Aslab: JJ
+Check program: False
+
+Name: IzzanNawaSyarif
 Score: 60.0
+Aslab: JJ
 Check program: False
 Message:
 Test 3: Expected tidak but got YA
@@ -493,14 +463,9 @@ Test 7: Expected tidak but got YA
 Test 9: Expected tidak but got YA
 
 
-Name: IzzanNawaSyarif
-Score: 0
-Check program: False
-Message:
-Plagiarism detected
-
 Name: LauraFawziaSambowo
 Score: 60.0
+Aslab: JJ
 Check program: False
 Message:
 Test 3: Expected tidak but got YA
@@ -511,6 +476,7 @@ Test 9: Expected tidak but got YA
 
 Name: WiellonaDarleneOderiaSaragih
 Score: 0.0
+Aslab: JJ
 Check program: False
 Message:
 Test 1: Expected ya but got 
@@ -526,15 +492,9 @@ Test 10: Expected ya but got
 Need to re-check the program
 
 
-Name: JohanBaptistaAdhikaWardana
-Score: 0
-Check program: False
-Message:
-Compile Error
-
-
 Name: JonathanFrederickKosasih
 Score: 70.0
+Aslab: PI
 Check program: False
 Message:
 Test 4: Expected tidak but got YA
@@ -544,18 +504,22 @@ Test 9: Expected tidak but got YA
 
 Name: KharismaAprilia
 Score: 100.0
+Aslab: PI
 Check program: False
 
 Name: MatthewImmanuel
 Score: 100.0
+Aslab: PI
 Check program: False
 
 Name: MaxwellZefanyaGinting
 Score: 100.0
+Aslab: PI
 Check program: False
 
 Name: MuhammadRiyanSatrioWibowo
 Score: 0.0
+Aslab: PI
 Check program: False
 Message:
 Test 1: Expected ya but got 
@@ -570,95 +534,44 @@ Test 9: Expected tidak but got
 Test 10: Expected ya but got 
 Need to re-check the program
 
-
-Name: NugrohoUlilAbshar
-Score: 100.0
-Check program: False
 
 Name: SyahmiHamdani
 Score: 70.0
+Aslab: PI
 Check program: False
 Message:
 Test 4: Expected tidak but got YA
 Test 7: Expected tidak but got YA
 Test 9: Expected tidak but got YA
-
-
-Name: M.IQBALALFAJRI
-Score: 0
-Check program: False
-Message:
-Compile Error
-
-
-Name: GraceYunikeMargarethaSitorus
-Score: 40.0
-Check program: False
-Message:
-Test 1: Expected ya but got TIDAK
-Test 2: Expected ya but got TIDAK
-Test 5: Expected ya but got TIDAK
-Test 6: Expected ya but got TIDAK
-Test 8: Expected ya but got TIDAK
-Test 10: Expected ya but got TIDAK
-
-
-Name: PhiloPradiptaAdhiSatriya
-Score: 0.0
-Check program: False
-Message:
-Test 1: Expected ya but got 
-Test 2: Expected ya but got 
-Test 3: Expected tidak but got 
-Test 4: Expected tidak but got 
-Test 5: Expected ya but got 
-Test 6: Expected ya but got 
-Test 7: Expected tidak but got 
-Test 8: Expected ya but got 
-Test 9: Expected tidak but got 
-Test 10: Expected ya but got 
-Need to re-check the program
 
 
 Name: BonifasiusRadityaPanduHendrianto
-Score: 0.0
+Score: 30.0
+Aslab: PROGDAS7
 Check program: False
 Message:
-Test 1: Expected ya but got 
-Test 2: Expected ya but got 
-Test 3: Expected tidak but got 
-Test 4: Expected tidak but got 
-Test 5: Expected ya but got 
-Test 6: Expected ya but got 
-Test 7: Expected tidak but got 
-Test 8: Expected ya but got 
-Test 9: Expected tidak but got 
-Test 10: Expected ya but got 
-Need to re-check the program
+Test 1: Expected ya but got YES
+Test 2: Expected ya but got YES
+Test 5: Expected ya but got YES
+Test 6: Expected ya but got YES
+Test 8: Expected ya but got YES
+Test 9: Expected tidak but got YES
+Test 10: Expected ya but got YES
 
-
-Name: MuhammadBryanFarras
-Score: 100.0
-Check program: False
 
 Name: GerrardinNabilZulhian
 Score: 70.0
+Aslab: PROGDAS7
 Check program: False
 Message:
 Test 4: Expected tidak but got YA
 Test 7: Expected tidak but got YA
-Test 9: Expected tidak but got YA
-
-
-Name: 2306267145
-Score: 90.0
-Check program: False
-Message:
 Test 9: Expected tidak but got YA
 
 
 Name: MuhammadRadityaAlifNugroho
 Score: 60.0
+Aslab: PROGDAS7
 Check program: False
 Message:
 Test 3: Expected tidak but got YA
@@ -667,52 +580,17 @@ Test 7: Expected tidak but got YA
 Test 9: Expected tidak but got YA
 
 
-Name: 2306220412
-Score: 0.0
+Name: DhafinHamizanSetiawan
+Score: 90.0
+Aslab: PROGDAS7
 Check program: False
 Message:
-Test 1: Expected ya but got 
-Test 2: Expected ya but got 
-Test 3: Expected tidak but got 
-Test 4: Expected tidak but got 
-Test 5: Expected ya but got 
-Test 6: Expected ya but got 
-Test 7: Expected tidak but got 
-Test 8: Expected ya but got 
-Test 9: Expected tidak but got 
-Test 10: Expected ya but got 
-Need to re-check the program
-
-
-Name: MuhamadDzakyMaulana
-Score: 70.0
-Check program: False
-Message:
-Test 4: Expected tidak but got YA
-Test 7: Expected tidak but got YA
 Test 9: Expected tidak but got YA
 
 
-Name: MuhammadRifatFaqih
-Score: 0
-Check program: False
-Message:
-Compile Error
-
-
-Name: 2306267082.c
-Score: 0
-Check program: False
-Message:
-Compile Error
-
-
-Name: WilmanSaragihSitio
-Score: 100.0
-Check program: False
-
 Name: AdhikanandaWiraJanuar
 Score: 90.0
+Aslab: RF
 Check program: False
 Message:
 Test 9: Expected tidak but got YA
@@ -720,62 +598,50 @@ Test 9: Expected tidak but got YA
 
 Name: AlfonsusTanara
 Score: 100.0
+Aslab: RF
 Check program: False
-
-Name: AndhikaFadhlanWijanarko
-Score: 0
-Check program: False
-Message:
-Compile Error
-
 
 Name: DaffaSayraFirdaus
 Score: 100.0
+Aslab: RF
 Check program: False
 
 Name: JeremyWijanarkoMulyono
 Score: 100.0
+Aslab: RF
 Check program: False
 
 Name: MAvicennaRaffaizAdiharsa
 Score: 100.0
-Check program: False
-
-Name: D:\DigiLab\Progdas2023\Modul7\CS1\CS1\CS1_RyanAdidaruExcelBarnabi
-Score: 100.0
+Aslab: RF
 Check program: False
 
 Name: AisyaRiveliaAzzahra
-Score: 0
+Score: 100.0
+Aslab: WN
 Check program: False
-Message:
-Plagiarism detected
 
 Name: Alicia
-Score: 0.0
+Score: 60.0
+Aslab: WN
 Check program: False
 Message:
-Test 1: Expected ya but got 
-Test 2: Expected ya but got 
-Test 3: Expected tidak but got 
-Test 4: Expected tidak but got 
-Test 5: Expected ya but got 
-Test 6: Expected ya but got 
-Test 7: Expected tidak but got 
-Test 8: Expected ya but got 
-Test 9: Expected tidak but got 
-Test 10: Expected ya but got 
-Need to re-check the program
+Test 3: Expected tidak but got YA
+Test 4: Expected tidak but got YA
+Test 7: Expected tidak but got YA
+Test 9: Expected tidak but got YA
 
 
 Name: AliyaRizqiningrumSalamun
 Score: 0
+Aslab: WN
 Check program: False
 Message:
 Plagiarism detected
 
 Name: AnthoniusHendhyWirawan
 Score: 90.0
+Aslab: WN
 Check program: False
 Message:
 Test 9: Expected tidak but got YA
@@ -783,6 +649,7 @@ Test 9: Expected tidak but got YA
 
 Name: AzraNabilaAzzahra
 Score: 0.0
+Aslab: WN
 Check program: False
 Message:
 Test 1: Expected ya but got 
@@ -800,45 +667,36 @@ Need to re-check the program
 
 Name: DaffaHardhan
 Score: 100.0
+Aslab: WN
 Check program: False
 
 Name: IbnuZakyFauzi
-Score: 0.0
+Score: 100.0
+Aslab: WN
 Check program: False
-Message:
-Test 1: Expected ya but got 
-Test 2: Expected ya but got 
-Test 3: Expected tidak but got 
-Test 4: Expected tidak but got 
-Test 5: Expected ya but got 
-Test 6: Expected ya but got 
-Test 7: Expected tidak but got 
-Test 8: Expected ya but got 
-Test 9: Expected tidak but got 
-Test 10: Expected ya but got 
-Need to re-check the program
-
 
 Name: JavanaMuhammadDzaki
 Score: 100.0
+Aslab: WN
 Check program: False
 
 Name: NelsonLaurensius
 Score: 100.0
+Aslab: WN
 Check program: False
 
 Name: RAKAARRAYAN
 Score: 100.0
+Aslab: WN
 Check program: False
 
 Name: SitiAmaliaNurfaidah
 Score: 100.0
+Aslab: WN
 Check program: False
 
-Name: 2306242376.c
-Score: 0
+Name: WilmanSaragihSitio
+Score: 100.0
+Aslab: WN
 Check program: False
-Message:
-Compile Error
-
 
