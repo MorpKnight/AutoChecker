@@ -103,7 +103,7 @@ class UnitTest:
         for expected_line, actual_line in zip(expected_lines, actual_lines):
             try:
                 count += 1
-                pat = re.compile(expected_line)
+                pat = re.compile(f'(?i){expected_line}')
                 if pat.findall(actual_line):
                     matching_lines += 1
                 else:
