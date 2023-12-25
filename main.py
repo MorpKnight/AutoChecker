@@ -7,4 +7,3 @@ if __name__ == '__main__':
 
     filePath = r"D:\DigiLab\Progdas2023\Modul7\CS1\CS1"
     checker = UT(filePath, regex=True)
-    # extractor = EX(filePath, folderName=["CS1"])
