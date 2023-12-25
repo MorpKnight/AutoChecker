@@ -20,6 +20,8 @@ class Extractor:
     def extract_zip(self):
         for root, dirs, files in os.walk(self.path):
             for file in files:
+                if ' ' in file:
+                    os.rename(os.path.join(root, file), os.path.join(root, file.replace(' ', '')))
                 if file.endswith(".zip"):
                     file_path = os.path.join(root, file)
                     try:
@@ -34,16 +36,27 @@ class Extractor:
     def remove(self):
         for root, dirs, files in os.walk(self.path):
             for file in files:
-                if file.upper().endswith(".JPG") or file.upper().endswith(".PNG") or file.upper().endswith(".JPEG"):
-                    file_path = os.path.join(root, file)
-                    os.remove(file_path)
-                if ' ' in file:
-                    os.rename(os.path.join(root, file), os.path.join(root, file.replace(' ', '')))
-                if '._' in file:
-                    os.rename(os.path.join(root, file), os.path.join(root, file.replace('._', '')))
-
-            if len(dirs) == 0 and len(files) == 0:
-                os.rmdir(root)
+                try:
+                    if ' ' in file:
+                        os.rename(os.path.join(root, file), os.path.join(root, file.replace(' ', '')))
+                except:
+                    pass
+                try:
+                    if '._' in file:
+                        os.rename(os.path.join(root, file), os.path.join(root, file.replace('._', '')))
+                except:
+                    pass
+                try:
+                    if file.upper().endswith(".JPG") or file.upper().endswith(".PNG") or file.upper().endswith(".JPEG"):
+                        file_path = os.path.join(root, file)
+                        os.remove(file_path)
+                except:
+                    pass
+            try:
+                if len(dirs) == 0 and len(files) == 0:
+                    os.rmdir(root)
+            except:
+                pass
 
     def separate(self):
         try:
@@ -53,8 +66,25 @@ class Extractor:
                 for root, dirs, files in os.walk(self.path):
                     for file in files:
                         file_path = os.path.join(root, file)
-                        if folder.upper() in file_path.upper():
-                            os.rename(file_path, os.path.join(self.path, folder, file))
+                        try:
+                            if folder.upper() in file_path.upper():
+                                os.rename(file_path, os.path.join(self.path, folder, file))
+                        except:
+                            pass
+        except:
+            pass
+    
+    def separate_by_extension(self):
+        try:
+            for root, dirs, files in os.walk(self.path):
+                for file in files:
+                    file_path = os.path.join(root, file)
+                    if not os.path.exist(os.path.join(self.path, file.split('.')[-1])):
+                        os.makedirs(os.path.join(self.path, file.split('.')[-1]))
+                    try:
+                        os.rename(file_path, os.path.join(self.path, file.split('.')[-1], file))
+                    except:
+                        pass
         except:
             pass
     
