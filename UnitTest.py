@@ -19,7 +19,7 @@ class UnitTest:
         self.filename = None
         self.input_test = kwargs.get("input_test")
         self.expected_output = kwargs.get("output_test")
-        self.kode_aslab = kwargs.get("kode_aslab")
+        # self.kode_aslab = kwargs.get("kode_aslab")
         self.regex:bool = kwargs.get("regex")
         self.regex_pattern = kwargs.get("regex_pattern")
         self.actual_output = None
@@ -158,9 +158,9 @@ class UnitTest:
             f.write("Name: Score\n")
             for i in self.student:
                 if i.message == "":
-                    f.write(f"Name: {i.name}\nScore: {i.score}\nCheck program: {i.regex_output}\n\n")
+                    f.write(f"Name: {i.name}\nScore: {i.score}\nAslab: {i.kode_aslab}\nCheck program: {i.regex_output}\n\n")
                 else:
-                    f.write(f"Name: {i.name}\nScore: {i.score}\nCheck program: {i.regex_output}\nMessage:\n{i.message}\n\n")
+                    f.write(f"Name: {i.name}\nScore: {i.score}\nAslab: {i.kode_aslab}\nCheck program: {i.regex_output}\nMessage:\n{i.message}\n\n")
         with open(".txt/result.csv", "w") as f:
             f.write("Name, Score\n")
             for i in self.student:
@@ -234,13 +234,14 @@ class UnitTest:
                 print(f"\rTesting {count_rn}/{count} files - {self.filename}", end="")
                 self.filename = os.path.join(self.folder_name, file)
                 boolCheck = self.compileC()
+                kode_aslab = self.filename.split("_")[1]
                 try:
                     student_name = self.filename.split("_")[3]
                 except:
                     student_name = self.filename
 
                 if not boolCheck:
-                    self.student.append(Student(student_name, 0, "Compile Error\n", self.kode_aslab, False))
+                    self.student.append(Student(student_name, 0, "Compile Error\n", kode_aslab, False))
                     continue
                 self.test()
                 print(f"Done testing {self.filename}")
@@ -253,9 +254,9 @@ class UnitTest:
                 perc = round(perc, 2)
                 
                 try:
-                    self.student.append(Student(student_name, perc, msg, self.kode_aslab, self.checkProgram()))
+                    self.student.append(Student(student_name, perc, msg, kode_aslab, self.checkProgram()))
                 except:
-                    self.student.append(Student(student_name, perc, msg, self.kode_aslab, False))
+                    self.student.append(Student(student_name, perc, msg, kode_aslab, False))
                 sleep(1)
                 self.actual_output_list = []
                 os.system("cls")
