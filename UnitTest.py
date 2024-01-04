@@ -234,7 +234,10 @@ class UnitTest:
                 print(f"\rTesting {count_rn}/{count} files - {self.filename}", end="")
                 self.filename = os.path.join(self.folder_name, file)
                 boolCheck = self.compileC()
-                kode_aslab = self.filename.split("_")[1]
+                try:
+                    kode_aslab = self.filename.split("_")[1]
+                except:
+                    kode_aslab = "Unknown"
                 try:
                     student_name = self.filename.split("_")[3]
                 except:
