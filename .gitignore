@@ -3,9 +3,6 @@
 .vscode
 
 input.txt
-result.txt
 
 __pycache__/
 .vscode/
-result.csv
-result.txt

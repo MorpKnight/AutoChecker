@@ -6,5 +6,5 @@ if __name__ == '__main__':
     expected_output = []
 
     # fill with folder path
-    filePath = r"D:\DigiLab\Progdas2023\Modul7\CS2\CS1"
+    filePath = r"D:\DigiLab\Progdas2023\Modul6\CS2\CS1"
     checker = UT(filePath, regex=True)
