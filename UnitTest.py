@@ -210,7 +210,7 @@ class UnitTest:
                     except:
                         continue
 
-                    if plagiarisme_checker1 >= 85 and plagiarisme_checker2 >= 85:
+                    if plagiarisme_checker1 >= 90 and plagiarisme_checker2 >= 90:
                         high_plagiarism_names.append(name1.split("_")[3])
                         high_plagiarism_names.append(name2.split("_")[3])
             for i in self.student:

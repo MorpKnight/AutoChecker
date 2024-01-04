@@ -1,0 +1,515 @@
+Name: Score
+Name: AdhiRajasaRafif
+Score: 100.0
+Aslab: AJ
+Check program: False
+
+Name: AudyNatalieCeciliaR
+Score: 100.0
+Aslab: AJ
+Check program: False
+
+Name: DaffaBagusDhiananto
+Score: 0
+Aslab: AJ
+Check program: False
+Message:
+Plagiarism detected
+
+Name: EkanandaZhafifDean
+Score: 100.0
+Aslab: AJ
+Check program: False
+
+Name: IzzanNawaSyarif
+Score: 100.0
+Aslab: AJ
+Check program: False
+
+Name: LauraFawziaSambowo
+Score: 100.0
+Aslab: AJ
+Check program: False
+
+Name: MuhamadDzakyMaulana
+Score: 100.0
+Aslab: AJ
+Check program: False
+
+Name: WiellonaDarleneOderiaSaragih
+Score: 100.0
+Aslab: AJ
+Check program: False
+
+Name: AdhikanandaWiraJanuar
+Score: 100.0
+Aslab: AM
+Check program: False
+
+Name: AlfonsusTanara
+Score: 100.0
+Aslab: AM
+Check program: False
+
+Name: DaffaSayraFirdaus
+Score: 100.0
+Aslab: AM
+Check program: False
+
+Name: JeremyWijanarkoMulyono
+Score: 100.0
+Aslab: AM
+Check program: False
+
+Name: FathanYazidSatriani
+Score: 100.0
+Aslab: AR
+Check program: False
+
+Name: FauzanFarrasHakimBudiHandoyo
+Score: 0
+Aslab: AR
+Check program: False
+Message:
+Plagiarism detected
+
+Name: isyanaTreviaPohaci
+Score: 100.0
+Aslab: AR
+Check program: False
+
+Name: MuhamadReyKafakaFadlan
+Score: 100.0
+Aslab: AR
+Check program: False
+
+Name: R.AishaSyauqiRamadhani
+Score: 0
+Aslab: AR
+Check program: False
+Message:
+Compile Error
+
+
+Name: RowenRodotuaHarahap
+Score: 0
+Aslab: AR
+Check program: False
+Message:
+Plagiarism detected
+
+Name: SamihBassam
+Score: 100.0
+Aslab: AR
+Check program: False
+
+Name: ZhafiraZahraAlfarisy
+Score: 100.0
+Aslab: AR
+Check program: False
+
+Name: KelvinFerrellTjoe
+Score: 100.0
+Aslab: ED
+Check program: False
+
+Name: BenedictAurelius
+Score: 0
+Aslab: ED
+Check program: False
+Message:
+Plagiarism detected
+
+Name: FilagaTifiraMuthi
+Score: 100.0
+Aslab: ED
+Check program: False
+
+Name: JesieTenardi
+Score: 100.0
+Aslab: ED
+Check program: False
+
+Name: MuhammadNadzhifFikri
+Score: 100.0
+Aslab: ED
+Check program: False
+
+Name: MusyaffaImanSupriadi
+Score: 100.0
+Aslab: ED
+Check program: False
+
+Name: MutiaCasella
+Score: 100.0
+Aslab: ED
+Check program: False
+
+Name: Salim
+Score: 100.0
+Aslab: ED
+Check program: False
+
+Name: ShafwanHasyim
+Score: 100.0
+Aslab: ED
+Check program: False
+
+Name: WesleyFrederickOh
+Score: 100.0
+Aslab: ED
+Check program: False
+
+Name: AzkaNabihanH
+Score: 100.0
+Aslab: EL
+Check program: False
+
+Name: BonifasiusRadityaPanduHendrianto
+Score: 40.0
+Aslab: EL
+Check program: False
+Message:
+Test 5: Expected -0\.00.*-0\.00 but got 0.000.00
+Test 6: Expected 184\.20.*-552\.60 but got 183.00-549.00
+Test 7: Expected -3643\.13.*-347263\.22 but got 0.000.00
+Test 8: Expected 11187\.32.*4299422\.50 but got 0.000.00
+Test 9: Expected -7951\.21.*66965\.09 but got 0.000.00
+Test 10: Expected 0\.00.*-0\.00 but got 0.000.00
+
+
+Name: MuhammadPavel
+Score: 100.0
+Aslab: EL
+Check program: False
+
+Name: NaufalHadiRasikhin
+Score: 100.0
+Aslab: EL
+Check program: False
+
+Name: RiviYashaHafizhan
+Score: 100.0
+Aslab: EL
+Check program: False
+
+Name: StevieNathaniaS
+Score: 100.0
+Aslab: EL
+Check program: False
+
+Name: AbednegoZebua
+Score: 100.0
+Aslab: EZ
+Check program: False
+
+Name: AxelAdrialPazaKalembang
+Score: 0
+Aslab: EZ
+Check program: False
+Message:
+Plagiarism detected
+
+Name: ChristianHadiwijaya
+Score: 100.0
+Aslab: EZ
+Check program: False
+
+Name: FadhlurezaSebastian
+Score: 100.0
+Aslab: EZ
+Check program: False
+
+Name: FalahAndhesryo
+Score: 100.0
+Aslab: EZ
+Check program: False
+
+Name: GEDERAMAPW
+Score: 80.0
+Aslab: EZ
+Check program: False
+Message:
+Test 7: Expected -3643\.13.*-347263\.22 but got TEGANGAN:-3643.13DAYA:-347263.19
+Test 8: Expected 11187\.32.*4299422\.50 but got TEGANGAN:11187.32DAYA:4299422.22
+
+
+Name: JesayaDavid
+Score: 100.0
+Aslab: EZ
+Check program: False
+
+Name: JonathanMatiusWeniGerimu
+Score: 100.0
+Aslab: EZ
+Check program: False
+
+Name: MuhammadRaihanMustofa
+Score: 100.0
+Aslab: EZ
+Check program: False
+
+Name: TriYogaArsyad
+Score: 0
+Aslab: EZ
+Check program: False
+Message:
+Compile Error
+
+
+Name: VanesaKaylaZahra
+Score: 0
+Aslab: EZ
+Check program: False
+Message:
+Plagiarism detected
+
+Name: AisyaRiveliaAzzahra
+Score: 100.0
+Aslab: GI
+Check program: False
+
+Name: Alicia
+Score: 100.0
+Aslab: GI
+Check program: False
+
+Name: AliyaRizqiningrumSalamun
+Score: 100.0
+Aslab: GI
+Check program: False
+
+Name: AnthoniusHendhyWirawan
+Score: 100.0
+Aslab: GI
+Check program: False
+
+Name: AzraNabilaAzzahra
+Score: 100.0
+Aslab: GI
+Check program: False
+
+Name: DaffaHardhan
+Score: 100.0
+Aslab: GI
+Check program: False
+
+Name: IbnuZakyFauzi
+Score: 100.0
+Aslab: GI
+Check program: False
+
+Name: JavanaMuhammadDzaki
+Score: 100.0
+Aslab: GI
+Check program: False
+
+Name: NelsonLaurensius
+Score: 0
+Aslab: GI
+Check program: False
+Message:
+Plagiarism detected
+
+Name: RAKAARRAYAN
+Score: 100.0
+Aslab: GI
+Check program: False
+
+Name: SitiAmaliaNurfaidah
+Score: 100.0
+Aslab: GI
+Check program: False
+
+Name: WilmanSaragihSitio
+Score: 100.0
+Aslab: GI
+Check program: False
+
+Name: DwiginaSittiZahwa
+Score: 100.0
+Aslab: JJ
+Check program: False
+
+Name: MuhammadRafli
+Score: 0
+Aslab: JJ
+Check program: False
+Message:
+Plagiarism detected
+
+Name: NeylaShakira
+Score: 100.0
+Aslab: JJ
+Check program: False
+
+Name: PutriKiaraSalsabilaArief
+Score: 10.0
+Aslab: JJ
+Check program: False
+Message:
+Test 1: Expected 6\.00.*12\.00 but got 0.000.00
+Test 2: Expected -5\.00.*5\.00 but got 0.000.00
+Test 4: Expected 28980\.00.*1999620\.00 but got 0.000.00
+Test 5: Expected -0\.00.*-0\.00 but got 0.000.00
+Test 6: Expected 184\.20.*-552\.60 but got 0.000.00
+Test 7: Expected -3643\.13.*-347263\.22 but got 0.000.00
+Test 8: Expected 11187\.32.*4299422\.50 but got 0.000.00
+Test 9: Expected -7951\.21.*66965\.09 but got 0.000.00
+Test 10: Expected 0\.00.*-0\.00 but got 0.000.00
+
+
+Name: PutriKiaraSalsabilaArief
+Score: 100.0
+Aslab: JJ
+Check program: False
+
+Name: RaddiefEzraSatrioAndaru
+Score: 100.0
+Aslab: JJ
+Check program: False
+
+Name: RafiNaufalAryaputra
+Score: 100.0
+Aslab: JJ
+Check program: False
+
+Name: AhmadFarizKhairi
+Score: 100.0
+Aslab: PI
+Check program: False
+
+Name: ArsintaKiranaNisa
+Score: 100.0
+Aslab: PI
+Check program: False
+
+Name: BryanHerdianto
+Score: 100.0
+Aslab: PI
+Check program: False
+
+Name: DeandroNajwanAhmadSyahbanna
+Score: 0
+Aslab: PI
+Check program: False
+Message:
+Plagiarism detected
+
+Name: MirzaAdiRaffiansyah
+Score: 100.0
+Aslab: PI
+Check program: False
+
+Name: MuhammadAryaWiandraUtomo
+Score: 100.0
+Aslab: PI
+Check program: False
+
+Name: MuhammadIkhsanKurniawan
+Score: 100.0
+Aslab: PI
+Check program: False
+
+Name: MuhammadRadityaAlifNugroho
+Score: 100.0
+Aslab: PI
+Check program: False
+
+Name: MAvicennaRaffaizAdiharsa
+Score: 80.0
+Aslab: PROGDAS8
+Check program: False
+Message:
+Test 7: Expected -3643\.13.*-347263\.22 but got -3643.13-347263.19
+Test 8: Expected 11187\.32.*4299422\.50 but got 11187.324299422.22
+
+
+Name: GerrardinNabilZulhian
+Score: 100.0
+Aslab: PROGDAS8
+Check program: False
+
+Name: M.IQBALALFAJRI
+Score: 0
+Aslab: PROGDAS8
+Check program: False
+Message:
+Plagiarism detected
+
+Name: AlexanderChristhian
+Score: 100.0
+Aslab: RF
+Check program: False
+
+Name: GraceYunikeMargarethaSitorus
+Score: 0
+Aslab: RF
+Check program: False
+Message:
+Plagiarism detected
+
+Name: MuhammadHilmiAlMuttaqi
+Score: 0
+Aslab: RF
+Check program: False
+Message:
+Plagiarism detected
+
+Name: MuhammadHilmyMahardika
+Score: 100.0
+Aslab: RF
+Check program: False
+
+Name: RyanAdidaruExcelBarnabi
+Score: 100.0
+Aslab: RF
+Check program: False
+
+Name: TeufikAliHadzalic
+Score: 80.0
+Aslab: RF
+Check program: False
+Message:
+Test 7: Expected -3643\.13.*-347263\.22 but got -3643.13-347263.19
+Test 8: Expected 11187\.32.*4299422\.50 but got 11187.324299422.22
+
+
+Name: JonathanFrederickKosasih
+Score: 100.0
+Aslab: WN
+Check program: False
+
+Name: KharismaAprilia
+Score: 100.0
+Aslab: WN
+Check program: False
+
+Name: MaxwellZefanyaGinting
+Score: 100.0
+Aslab: WN
+Check program: False
+
+Name: MuhammadRiyanSatrioWibowo
+Score: 100.0
+Aslab: WN
+Check program: False
+
+Name: NugrohoUlilAbshar
+Score: 40.0
+Aslab: WN
+Check program: False
+Message:
+Test 5: Expected -0\.00.*-0\.00 but got 0.000.00
+Test 6: Expected 184\.20.*-552\.60 but got 183.00-549.00
+Test 7: Expected -3643\.13.*-347263\.22 but got 0.000.00
+Test 8: Expected 11187\.32.*4299422\.50 but got 0.000.00
+Test 9: Expected -7951\.21.*66965\.09 but got 0.000.00
+Test 10: Expected 0\.00.*-0\.00 but got 0.000.00
+
+
+Name: SyahmiHamdani
+Score: 100.0
+Aslab: WN
+Check program: False
+
